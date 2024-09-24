@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coding Career Prep: Your ultimate resource for mastering Java, SQL, DSA, and coding interviews. Explore comprehensive courses and top interview questions to excel in your career.">
+    <title> Java Interview Questions and Answer 2024 | Coding Career Prep </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../media/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../media/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../media/apple-touch-icon.png">
+    <link rel="manifest" href="../site.webmanifest"> <!-- Manifest for web apps -->
+
+
+    
+     <meta name="keywords" content="Java interview questions, SQL interview preparation, coding interview tips, DSA resources, software engineering roadmap">
+
+     
+     <link rel="canonical" href="https://codingcareerprep.com/">
+     <meta name="robots" content="index, follow">
+     
+     <!-- Open Graph Meta Tags -->
+     <meta property="og:title" content="Coding Career Prep - Your Ultimate Resource for Interview Preparation">
+     <meta property="og:description" content="Master Java, SQL, DSA, and coding interviews with comprehensive resources and top interview questions. Prepare effectively and excel in your career!">
+     <meta property="og:image" content="https://codingcareerprep.com/media/favicon-32x32.png">
+     <meta property="og:url" content="https://codingcareerprep.com/">
+     
+     
+     <!-- Twitter Card Meta Tags -->
+     <meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:title" content="Coding Career Prep - Your Ultimate Resource for Interview Preparation">
+     <meta name="twitter:description" content="Master Java, SQL, DSA, and coding interviews with comprehensive resources and top interview questions. Prepare effectively and excel in your career!">
+     <meta name="twitter:image" content="https://codingcareerprep.com/media/favicon-32x32.png">
+     <link rel="stylesheet" href="/css/styles.css">
+     <link rel="stylesheet" href="java-interview-question-page.css">
+      <!-- Link to your CSS file -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   
+  <!-- header  start-->
+
+   <!-- header  start-->
+
+   <header>
+    <div class="container">
+        
+        <a href="/">
+            <div class="logo">
+               
+               <strong> <span>&lt;CCP/&gt;</span></strong>
+             <div class="cpp">  Coding Career Prep</div>
+            </div>
+        </a>
+        
+        
+        
+        
+        <i id="theme-toggler" class="fas fa-sun fa-2x"></i> <!-- Sun icon for light mode -->
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+      
+        <nav class="nav" aria-label="Main Navigation">
+            <ul>
+                <li><a href="/sql-interview-questions/" title="Top SQl Interview Questions Java Tutorial">SQL</a></li>
+                <li><a href="/software-engineer-interview-questions/" title="Interview Preparation Tips">Interview</a></li>
+                <li><a href="/techinal-interview-questions/top-50-coding-interview-question/" title="Top coding Question">Coding</a></li>
+                <li><a href="/techinal-interview-questions/sde-sheet-top-coding-interview-problems/" title="Data Structures and Algorithms">DSA</a></li>
+                <li><a href="/roadmap/frontend-developer-roadmap/" title="Roadmap for full-stack-developer-roadmap 2024 passout">RoadMap</a></li>
+              
+            </ul>
+        </nav>
+       
+    </div>
+</header>
+<!-- header  end-->
+
+<section class="Top-Java-Interview-Questions">
+    <h1 class="Top-50-Java-Interview-Questions" ><i class="fa-brands fa-java fa-2x" ></i> Java Interview Questions </h1>
+    <hr></hr>
+</section>
+
+
+<div class="java-for-beginner">
+    <div class="qa-section">
+        <h2>Java Interview Questions for Beginners </h2>
+        <div class="filter-container">
+            <label for="filter">Select a category: </label>
+            <select id="filter" onchange="filterQuestions()">
+                <option value="all">All</option>
+                <option value="java-core">Java Core</option>
+                <option value="java-collection">Java Collection</option>
+                <option value="java-8">Java 8</option>
+                <option value="java-string">Java String</option>
+            </select>
+        </div>
+        
+        <ol>
+            <li class="qa-item" id="java-oops">
+                <h3 class="java-question">Is Java an object-oriented programming language?</h3>
+                <p class="java-answer">Yes, Java is an object-oriented programming (OOP) language. It supports key OOP principles such as:</p>
+                <ul>
+                  
+                    <li><strong>Encapsulation:</strong> Bundling data and methods that operate on the data within classes, restricting direct access to some components.</li><br>
+                   
+                    <li><strong>Inheritance:</strong> Allowing classes to inherit properties and methods from other classes, promoting code reuse.</li><br>
+                    <li><strong>Polymorphism:</strong> Enabling objects to be treated as instances of their parent class, allowing for method overriding and overloading.</li><br>
+                    <li><strong>Abstraction:</strong> Providing a way to define abstract classes and interfaces, separating implementation from interface.</li><br>
+                </ul>
+                <p>However, it is important to note that Java is not purely object-oriented due to the inclusion of primitive data types (like <code>int</code>, <code>char</code>, etc.) and static methods and variables, which are not tied to instances of classes.</p>
+            </li>
+                <li class="qa-item" id="java-core">
+                    <h3 class="java-question">Is Java Platform Independent if then how?</h3>
+                    <p class="java-answer">Yes, Java is platform-independent due to its "Write Once, Run Anywhere" (WORA) capability. When Java code is compiled, it transforms into bytecode, which is an intermediate form stored in `.class` files. ,<br><br>This bytecode can be executed on any device that has a Java Virtual Machine (JVM) installed, regardless of the underlying operating system. The JVM interprets or compiles the bytecode into machine code suitable for the specific platform, allowing the same Java application to run seamlessly on Windows, macOS, Linux, and others without modification.<br> This architecture ensures that Java applications are highly portable and versatile across different environments.</p>
+                </li>
+
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is the difference between JDK, JRE, and JVM?</h3>
+                        <p class="java-answer">The JDK (Java Development Kit) is a software development kit used to develop Java applications.<br> The JRE (Java Runtime Environment) is part of the JDK and provides the libraries, Java Virtual Machine (JVM), and other components needed to run applications written in Java. The JVM (Java Virtual Machine) is an abstract computing machine that enables a computer to run Java programs by converting bytecode into machine code.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What are the main features of Java?</h3>
+                        <p class="java-answer">Java is known for its features such as platform independence, object-oriented programming, automatic memory management (garbage collection), multithreading support, and a rich API. It also emphasizes security and performance.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is a Java class?</h3>
+                        <p class="java-answer">A Java class is a blueprint from which individual objects are created. It contains fields (attributes) and methods (functions) to define the behavior of the objects created from it.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is inheritance in Java?</h3>
+                        <p class="java-answer">Inheritance is a mechanism where one class (subclass) inherits the attributes and methods of another class (superclass). It promotes code reusability and establishes a relationship between classes.</p>
+                        
+                        <h4>Types of Inheritance</h4>
+                        <ul>
+                            <li><strong>Single Inheritance:</strong> A subclass inherits from one superclass.</li><br>
+                            <li><strong>Multilevel Inheritance:</strong> A subclass is derived from another subclass, creating a chain of inheritance.</li><br>
+                            <li><strong>Hierarchical Inheritance:</strong> Multiple subclasses inherit from a single superclass.</li><br>
+                            <li><strong>Multiple Inheritance:</strong> Java does not support this directly with classes but allows it through interfaces.</li><br>
+                            <li><strong>Hybrid Inheritance:</strong> A combination of two or more types of inheritance, achievable through interfaces.</li><br>
+                        </ul>
+                        
+                        <h4>Code Examples</h4>
+                        <h5>Single Inheritance:</h5>
+  <pre><code>class Animal {
+    void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking...");
+    }
+        </code></pre>
+        
+        <h5>Multilevel Inheritance:</h5>
+        <pre><code>class Animal {
+            void eat() {
+                System.out.println("Eating...");
+            }
+        }
+        
+        class Dog extends Animal {
+            void bark() {
+                System.out.println("Barking...");
+            }
+        }
+        
+        class Puppy extends Dog {
+            void weep() {
+                System.out.println("Weeping...");
+            }
+                </code></pre>
+                
+                <h5>Hierarchical Inheritance:</h5>
+                <pre><code>
+        class Animal {
+            void eat() {
+                System.out.println("Eating...");
+            }
+        }
+        
+        class Dog extends Animal {
+            void bark() {
+                System.out.println("Barking...");
+            }
+        }
+        
+        class Cat extends Animal {
+            void meow() {
+                System.out.println("Meowing...");
+            }
+                </code></pre>
+                
+                
+                
+                        <h5>Multiple Inheritance (through Interfaces):</h5>
+  <pre><code> interface CanRun {
+    void run();
+}
+
+interface CanBark {
+    void bark();
+}
+
+class Dog implements CanRun, CanBark {
+    public void run() {
+        System.out.println("Running...");
+    }
+    
+    public void bark() {
+        System.out.println("Barking...");
+    }
+        </code></pre>
+               
+                        
+                        <h5>Hybrid Inheritance:</h5>
+                        <p>Java does not support hybrid inheritance directly through classes, but it can be achieved using interfaces.</p>
+                    </li>
+                
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What are interfaces in Java?</h3>
+                        <p class="java-answer">Interfaces in Java are abstract types that allow you to specify methods that a class must implement. They define a contract for classes, ensuring that certain methods are implemented, while allowing different classes to implement those methods in their own way.</p>
+                        
+                        <h4>Key Features of Interfaces:</h4>
+                        <ul>
+                            <li><strong>Method Declaration:</strong> Interfaces can contain method signatures, but no method bodies (until Java 8, which introduced default methods).</li><br>
+                            <li><strong>Multiple Inheritance:</strong> A class can implement multiple interfaces, providing a way to achieve multiple inheritance in Java.</li><br>
+                            <li><strong>Constants:</strong> Interfaces can contain constants (static final variables), which are implicitly public, static, and final.</li><br>
+                            <li><strong>Polymorphism:</strong> Interfaces allow for polymorphic behavior, as classes can be treated as their interface type.</li><br>
+                            <li><strong>Default and Static Methods:</strong> Since Java 8, interfaces can have default and static methods, allowing code reuse in interfaces.</li><br>
+                        </ul>
+                        
+                        <h4>Example:</h4>
+ <pre><code> interface Animal {
+    void eat();
+    void sound();
+}
+
+class Dog implements Animal {
+    public void eat() {
+        System.out.println("Dog is eating.");
+    }
+
+    public void sound() {
+        System.out.println("Bark");
+    }
+}
+
+class Cat implements Animal {
+    public void eat() {
+        System.out.println("Cat is eating.");
+    }
+
+    public void sound() {
+        System.out.println("Meow");
+    }
+}
+        </code></pre>
+               
+                        
+                        <h4>Usage:</h4>
+                        <p>Interfaces are used to achieve abstraction and to define a common behavior across different classes. They are widely used in frameworks and APIs.</p>
+                    </li>
+                
+                
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is polymorphism?</h3>
+                        <p class="java-answer">Polymorphism is the ability of a single function or method to work in different ways depending on the context. It can be achieved through method overloading and method overriding.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is encapsulation?</h3>
+                        <p class="java-answer">Encapsulation is the principle of wrapping data (attributes) and methods (functions) within a single unit, restricting direct access to some of an object's components.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is the difference between `==` and `equals()` in Java?</h3>
+                        <p class="java-answer">The `==` operator checks for reference equality, while `equals()` checks for value equality.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is a constructor in Java?</h3>
+                        <p class="java-answer">A constructor is a special method called when an object is instantiated. It has the same name as the class and does not have a return type.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is the purpose of the `final` keyword in Java?</h3>
+                        <p class="java-answer">The `final` keyword makes a variable a constant, prevents method overriding, or prevents inheritance of a class.</p>
+                    </li>
+                    <li class="qa-item" id="java-collection">
+                        <h3 class="java-question">What is the Java Collections Framework?</h3>
+                        <p class="java-answer">The Java Collections Framework is a unified architecture for representing and manipulating collections of objects, including interfaces like `List`, `Set`, and `Map`.</p>
+                    </li>
+                    <li class="qa-item" id="java-collection">
+                        <h3 class="java-question">What is the difference between `ArrayList` and `LinkedList`?</h3>
+                        <p class="java-answer">`ArrayList` is a resizable array implementation allowing fast random access, while `LinkedList` is a doubly-linked list allowing more efficient insertions and deletions.</p>
+                    </li>
+                    <li class="qa-item" id="java-collection">
+                        <h3 class="java-question">What is a `Map` in Java?</h3>
+                        <p class="java-answer">A `Map` maps keys to values and does not allow duplicate keys. Common implementations include `HashMap`, `TreeMap`, and `LinkedHashMap`.</p>
+                    </li>
+                    <li class="qa-item" id="java-collection">
+                        <h3 class="java-question">What is the Java Collections Framework?</h3>
+                        <p class="java-answer">The Java Collections Framework is a unified architecture for representing and manipulating collections of objects. It includes several key interfaces, each designed for specific types of collections.</p>
+                        
+                        <h4>Key Interfaces in the Java Collections Framework:</h4>
+                        
+                        <h5>1. List</h5>
+                        <p>The <code>List</code> interface represents an ordered collection (also known as a sequence) that allows duplicate elements. It provides methods to manipulate the size of the list and to access elements by their index.</p>
+    <pre><code> List&lt;String&gt; myList = new ArrayList&lt;&gt;();
+        myList.add("Apple");
+        myList.add("Banana");
+        myList.add("Apple"); // Duplicates allowed
+        String firstItem = myList.get(0); // "Apple"
+            </code></pre>
+                   
+                        
+                        <h5>2. Set</h5>
+                        <p>The <code>Set</code> interface represents a collection that does not allow duplicate elements. It models the mathematical set abstraction and provides operations for adding, removing, and checking elements.</p>
+    <pre><code> Set&lt;String&gt; mySet = new HashSet&lt;&gt;();
+        mySet.add("Apple");
+        mySet.add("Banana");
+        mySet.add("Apple"); // Duplicates ignored
+        boolean hasApple = mySet.contains("Apple"); // true
+            </code></pre>
+                   
+                    
+                        <h5>3. Map</h5>
+                        <p>The <code>Map</code> interface represents a collection of key-value pairs. It does not allow duplicate keys, and each key maps to exactly one value. Maps provide methods for inserting, removing, and accessing values based on keys.</p>
+    <pre><code> Map&lt;String, Integer&gt; myMap = new HashMap&lt;&gt;();
+        myMap.put("Apple", 1);
+        myMap.put("Banana", 2);
+        int appleCount = myMap.get("Apple"); // 1
+            </code></pre>
+                   
+                    
+                        <h5>4. Queue</h5>
+                        <p>The <code>Queue</code> interface represents a collection designed for holding elements prior to processing. It provides methods for adding, removing, and inspecting elements, typically following the first-in, first-out (FIFO) principle.</p>
+         <pre><code>Queue&lt;String&gt; myQueue = new LinkedList&lt;&gt;();
+            myQueue.add("First");
+            myQueue.add("Second");
+            String nextItem = myQueue.poll(); // "First"
+                </code></pre>
+                    
+                    
+                        <h5>5. Deque</h5>
+                        <p>The <code>Deque</code> interface extends the <code>Queue</code> interface and represents a double-ended queue that allows elements to be added or removed from both ends.</p>
+      <pre><code>  Deque&lt;String&gt; myDeque = new ArrayDeque&lt;&gt;();
+        myDeque.addFirst("First");
+        myDeque.addLast("Second");
+        String firstItem = myDeque.removeFirst(); // "First"
+            </code></pre>
+                  
+                    
+                        <h5>6. SortedSet</h5>
+                        <p>The <code>SortedSet</code> interface extends <code>Set</code> and provides a total ordering of its elements. It allows you to access the first and last elements and view subsets of the collection.</p>
+   <pre><code>  SortedSet&lt;Integer&gt; sortedSet = new TreeSet&lt;&gt;();
+    sortedSet.add(3);
+    sortedSet.add(1);
+    sortedSet.add(2);
+    Integer first = sortedSet.first(); // 1
+        </code></pre>
+                  
+                    
+                        <h5>7. SortedMap</h5>
+                        <p>The <code>SortedMap</code> interface extends <code>Map</code> and provides a total ordering on its keys. It allows you to access the first and last keys and view key-value pairs in sorted order.</p>
+     <pre><code> SortedMap&lt;String, Integer&gt; sortedMap = new TreeMap&lt;&gt;();
+        sortedMap.put("Banana", 2);
+        sortedMap.put("Apple", 1);
+        String firstKey = sortedMap.firstKey(); // "Apple"
+            </code></pre>
+                   
+                    </li>
+                    <li class="qa-item" id="java-collection">
+                        <h3 class="java-question">How does HashMap work internally in Java?</h3>
+                        <p>A <code>HashMap</code> in Java is a part of the Java Collections Framework that implements the <code>Map</code> interface. It stores key-value pairs and allows for fast retrieval based on keys. The internal workings of a <code>HashMap</code> can be broken down into several key components:</p>
+                        
+                        <h4>1. Hashing</h4>
+                        <p>When you add a key-value pair to a <code>HashMap</code>, the key is processed through a hashing function. This function computes a hash code (an integer) that determines the index in the underlying array where the value will be stored.</p>
+     <pre><code>int hashCode = key.hashCode();
+        int index = hashCode % arrayLength; // Index in the array
+            </code></pre>
+                    
+                    
+                        <h4>2. Buckets</h4>
+                        <p>The underlying structure of a <code>HashMap</code> is an array of "buckets." Each bucket can store multiple entries, usually in a linked list or a tree structure (in Java 8 and later). If two keys generate the same hash code (a situation known as a "collision"), they will be stored in the same bucket.</p>
+                    
+                        <h4>3. Handling Collisions</h4>
+                        <p>When a collision occurs, the <code>HashMap</code> uses the following methods to handle it:</p>
+                        <ul>
+                            <li><strong>Linked List:</strong> In the case of fewer collisions, entries are stored in a linked list within the same bucket.</li>
+                            <li><strong>Tree Structure:</strong> If the number of entries in a bucket exceeds a certain threshold (usually 8), the linked list is converted into a balanced binary tree for faster lookups.</li>
+                        </ul>
+                    
+                        <h4>4. Load Factor and Rehashing</h4>
+                        <p>The load factor is a measure that determines when to increase the size of the <code>HashMap</code>. The default load factor is 0.75, which means when 75% of the buckets are filled, the <code>HashMap</code> will be resized (rehashing). This involves creating a new, larger array and rehashing all existing entries into the new array.</p>
+                    
+                        <h4>5. Performance</h4>
+                        <p>The average time complexity for basic operations (get, put, remove) is <code>O(1)</code> when there are few collisions. However, in the worst-case scenario (when many collisions occur), the time complexity can degrade to <code>O(n)</code> if all entries are stored in a single bucket.</p>
+                    
+                        <h4>6. Example</h4>
+                        <p>Here is a simple example of using a <code>HashMap</code> in Java:</p>
+      <pre><code>  HashMap&lt;String, Integer&gt; map = new HashMap&lt;&gt;();
+        map.put("Apple", 1);
+        map.put("Banana", 2);
+        map.put("Orange", 3);
+        int value = map.get("Banana"); // Returns 2
+                  
+                        </code></pre>
+                    </li>
+                    
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What are the access modifiers in Java?</h3>
+                        <p class="java-answer">Java has four access modifiers: `public`, `protected`, `private`, and default (no modifier), which control visibility.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is method overloading?</h3>
+                        <p class="java-answer">Method overloading occurs when multiple methods in the same class have the same name but different parameters.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is method overriding?</h3>
+                        <p class="java-answer">Method overriding occurs when a subclass provides a specific implementation for a method already defined in its superclass.</p>
+                    </li>
+                    <li class="qa-item" id="java-8">
+                        <h3 class="java-question">What are lambda expressions in Java?</h3>
+                        <p class="java-answer">Lambda expressions provide a clear and concise way to represent functional interfaces, allowing you to write anonymous methods.</p>
+                    </li>
+                    <li class="qa-item" id="java-8">
+                        <h3 class="java-question">What is the significance of the `stream` API?</h3>
+                        <p class="java-answer">The `stream` API allows for functional-style operations on collections, enabling efficient processing of data with operations such as filtering, mapping, and reducing.</p>
+                    </li>
+                    <li class="qa-item" id="java-8">
+                        <h3 class="java-question">What is the `Optional` class?</h3>
+                        <p class="java-answer">The `Optional` class is a container object used to contain not-null objects, providing methods to avoid null checks and handle potential null values gracefully.</p>
+                    </li>
+                    <li class="qa-item" id="java-8">
+                        <h3 class="java-question">What is a functional interface?</h3>
+                        <p class="java-answer">A functional interface is an interface that contains exactly one abstract method and can be used as the assignment target for lambda expressions.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is garbage collection in Java?</h3>
+                        <p class="java-answer">Garbage collection is the process by which Java automatically manages memory by reclaiming memory allocated to objects that are no longer referenced.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is the Java `main` method?</h3>
+                        <p class="java-answer">The `main` method is the entry point of any Java application, defined as `public static void main(String[] args)`.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is an abstract class?</h3>
+                        <p class="java-answer">An abstract class is a class that cannot be instantiated and may contain abstract methods. It serves as a base for subclasses.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is the `volatile` keyword in Java?</h3>
+                        <p class="java-answer">The `volatile` keyword indicates that a variable's value will be modified by different threads, ensuring visibility across threads.</p>
+                    </li>
+                    <li class="qa-item" id="java-core">
+                        <h3 class="java-question">What is the difference between `String`, `StringBuilder`, and `StringBuffer`?</h3>
+                        <p class="java-answer">`String` is immutable; `StringBuilder` is mutable and not synchronized; `StringBuffer` is mutable and synchronized.</p>
+                    </li>
+            
+                
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">What is a String in Java?</h3>
+                            <p class="java-answer">A String in Java is a sequence of characters that is treated as a single object. Strings are immutable, meaning once created, their values cannot be changed.</p>
+                        </li>
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">How is a String created in Java?</h3>
+                            <p class="java-answer">In Java, a String can be created in two primary ways:</p>
+                            <ul>
+                                <li><strong>String Literals:</strong> The most common way to create a String is by using string literals. For example, you can create a String like this:
+                                    <pre><code>String str = "Hello";</code></pre>
+                                    When you use string literals, Java creates a String object in the String pool, which is a special area of memory that stores String literals for efficient memory use and faster access.</li><br>
+                                
+                                <li><strong>Using the `new` Keyword:</strong> Alternatively, you can create a String using the <code>new</code> keyword. For example:
+                                    <pre><code>String str = new String("Hello");</code></pre>
+                                    This approach creates a new String object in the heap memory, even if an identical String exists in the String pool. This method is less commonly used because it can lead to unnecessary memory usage.</li><br>
+                            </ul>
+                            <p>Both methods will create a String containing the same sequence of characters, but they differ in terms of memory allocation and performance. In general, it's recommended to use string literals for most cases due to their simplicity and efficiency.</p>
+                        </li>
+                        
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">What is the difference between `String`, `StringBuilder`, and `StringBuffer`?</h3>
+                            <p class="java-answer">`String` is immutable, meaning it cannot be changed. `StringBuilder` is mutable and not synchronized, making it faster for single-threaded use. `StringBuffer` is also mutable but synchronized, making it thread-safe but slower than `StringBuilder`.</p>
+                        </li>
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">How do you compare two strings in Java?</h3>
+                            <p class="java-answer">To compare two strings, use the `equals()` method for value comparison and `==` for reference comparison. For case-insensitive comparison, use `equalsIgnoreCase()`.</p>
+                        </li>
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">How can you convert a String to an integer in Java?</h3>
+                            <p class="java-answer">You can convert a String to an integer using the `Integer.parseInt(String s)` method or `Integer.valueOf(String s)` method.</p>
+                        </li>
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">What is the purpose of the `String.intern()` method?</h3>
+                            <p class="java-answer">The `intern()` method returns a canonical representation of the string object. It ensures that all identical strings share the same memory location in the string pool, saving memory.</p>
+                        </li>
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">How do you extract a substring from a String?</h3>
+                            <p class="java-answer">You can extract a substring using the <Strong>`substring(int beginIndex, int endIndex)`</Strong> method, where `beginIndex` is inclusive and `endIndex` is exclusive.</p>
+                        </li>
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">What are the common methods available in the String class?</h3>
+                            <p class="java-answer">Common methods include `length()`, `charAt(int index)`, `indexOf(String str)`, `toUpperCase()`, `toLowerCase()`, `trim()`, `replace()`, and `split(String regex)`.</p>
+                        </li>
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">What are the common methods of the String class in Java?</h3>
+                            
+                            <h4>1. substring()</h4>
+                            <p>The <code>substring()</code> method is used to extract a part of a String.</p>
+      <pre><code> String str = "Hello, World!";
+        String sub = str.substring(7); // "World!"
+        String sub2 = str.substring(0, 5); // "Hello"
+                </code></pre>
+                   
+                    
+                            <h4>2. indexOf()</h4>
+                            <p>The <code>indexOf()</code> method returns the index of the first occurrence of a specified character or substring.</p>
+      <pre><code> String str = "Hello, World!";
+        int index = str.indexOf("o"); // 4
+        int index2 = str.indexOf("World"); // 7
+                </code></pre>
+                   
+                    
+                            <h4>3. replace()</h4>
+                            <p>The <code>replace()</code> method is used to replace all occurrences of a specified character or substring with another character or substring.</p>
+      <pre><code>  String str = "Hello, World!";
+        String replaced = str.replace("World", "Java"); // "Hello, Java!"
+                </code></pre>
+                  
+                    
+                            <h4>4. toUpperCase() and toLowerCase()</h4>
+                            <p>The <code>toUpperCase()</code> and <code>toLowerCase()</code> methods convert the entire String to upper or lower case, respectively.</p>
+       <pre><code>String str = "Hello, World!";
+        String upper = str.toUpperCase(); // "HELLO, WORLD!"
+        String lower = str.toLowerCase(); // "hello, world!"
+                </code></pre>
+                    
+                    
+                            <h4>5. trim()</h4>
+                            <p>The <code>trim()</code> method removes leading and trailing whitespace from the String.</p>
+   <pre><code> String str = "   Hello, World!   ";
+    String trimmed = str.trim(); // "Hello, World!"
+            </code></pre>
+                   
+                    
+                            <h4>6. charAt()</h4>
+                            <p>The <code>charAt()</code> method returns the character at a specified index.</p>
+     <pre><code> String str = "Hello";
+        char ch = str.charAt(1); // 'e'
+                </code></pre>
+                   
+                    
+                            <h4>7. length()</h4>
+                            <p>The <code>length()</code> method returns the number of characters in the String.</p>
+     <pre><code>  String str = "Hello, World!";
+        int length = str.length(); // 13
+                </code></pre>
+                  
+                    
+                            <h4>8. split()</h4>
+                            <p>The <code>split()</code> method splits the String into an array of substrings based on a specified delimiter.</p>
+ <pre><code> String str = "apple,banana,cherry";
+      String[] fruits = str.split(","); // ["apple", "banana", "cherry"]
+                </code></pre>
+                   
+                    
+                        </li>
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">What is String concatenation, and how is it performed?</h3>
+                            <p class="java-answer">String concatenation is the process of combining two or more strings. It can be performed using the `+` operator or the `concat(String str)` method. For multiple concatenations, using `StringBuilder` is recommended for performance.</p>
+                        </li>
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">How can you check if a String contains a specific sequence of characters?</h3>
+                            <p class="java-answer">You can use the `contains(CharSequence sequence)` method to check if a String contains a specific sequence of characters.</p>
+                        </li>
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">What is the purpose of the `String.format()` method?</h3>
+                            <p class="java-answer">The `String.format()` method allows you to create formatted strings using placeholders, making it easy to format numbers, dates, and other data types into a String.</p>
+                        </li>
+                        <li class="qa-item" id="java-string">
+                            <h3 class="java-question">How do you convert a character array to a String?</h3>
+                            <p class="java-answer">You can convert a character array to a String using the `String` constructor: `String str = new String(charArray);` or by using `String.valueOf(charArray);`.</p>
+                        </li>
+                   
+                      
+                      
+                            <li class="qa-item" id="java-8">
+                                <h3 class="java-question">What are lambda expressions in Java 8?</h3>
+                                <p class="java-answer">Lambda expressions are a way to provide clear and concise syntax for writing anonymous methods. They enable you to express instances of single-method interfaces (functional interfaces) in a more readable way.</p>
+         <pre><code> List&lt;String&gt; names = Arrays.asList("Alice", "Bob", "Charlie");
+            names.forEach(name -&gt; System.out.println(name));
+                    </code></pre>
+                       
+                            </li>
+                            
+                            <li class="qa-item" id="java-8">
+                                <h3 class="java-question">What is the Stream API in Java 8?</h3>
+                                <p class="java-answer">The Stream API allows you to process sequences of elements (like collections) in a functional style. It provides methods for filtering, mapping, and reducing data.</p>
+ <pre><code> List&lt;String&gt; names = Arrays.asList("Alice", "Bob", "Charlie");
+    List&lt;String&gt; filteredNames = names.stream()
+                                         .filter(name -&gt; name.startsWith("A"))
+                                         .collect(Collectors.toList());
+            </code></pre>
+                       
+                            </li>
+                            
+                            <li class="qa-item" id="java-8">
+                                <h3 class="java-question">What is a functional interface?</h3>
+                                <p class="java-answer">A functional interface is an interface that contains exactly one abstract method. They can be used as the assignment target for a lambda expression.</p>
+<pre><code> @FunctionalInterface
+            interface MyFunctionalInterface {
+                void myMethod();
+                     }
+        
+                 MyFunctionalInterface myFunc = () -&gt; System.out.println("Hello, World!");
+                 myFunc.myMethod();
+                </code></pre>
+                      
+                            </li>
+                            
+                            <li class="qa-item" id="java-8">
+                                <h3 class="java-question">What are default methods in interfaces?</h3>
+                                <p class="java-answer">Default methods allow you to add new methods to interfaces without affecting the classes that implement them. They can be defined using the <code>default</code> keyword.</p>
+         <pre><code>interface MyInterface {
+
+         default void myDefaultMethod() {
+        System.out.println("This is a default method.");
+                      }
+                 }
+                 class MyClass implements MyInterface {}
+                        
+                 MyClass obj = new MyClass();
+                 obj.myDefaultMethod();             
+                       
+         </code></pre>
+                            </li>
+                            
+                            <li class="qa-item" id="java-8">
+                                <h3 class="java-question">What is method reference in Java 8?</h3>
+                                <p class="java-answer">Method references provide a way to refer to methods without executing them. They are a shorthand notation of a lambda expression to call a method.</p>
+     <pre><code> List&lt;String&gt; names = Arrays.asList("Alice", "Bob", "Charlie");
+        names.forEach(System.out::println);
+                </code></pre>
+                       
+                            </li>
+                            
+                            <li class="qa-item" id="java-8">
+                                <h3 class="java-question">How does the Optional class work in Java 8?</h3>
+                                <p class="java-answer">The <code>Optional</code> class is a container that may or may not contain a non-null value. It helps to avoid <code>NullPointerExceptions</code> and provides methods for handling absent values gracefully.</p>
+      <pre><code>  Optional&lt;String&gt; optionalName = Optional.ofNullable(getName());
+        optionalName.ifPresent(name -&gt; System.out.println(name));
+                </code></pre>
+                      
+                            </li>
+                            
+                            <li class="qa-item" id="java-8">
+                                <h3 class="java-question">What is the purpose of the new Date and Time API in Java 8?</h3>
+                                <p class="java-answer">Java 8 introduced a new Date and Time API to address the shortcomings of the old <code>java.util.Date</code> and <code>java.util.Calendar</code> classes. It provides a more comprehensive and user-friendly way to work with dates and times.</p>
+                                <pre><code>
+                        LocalDate today = LocalDate.now();
+                        System.out.println("Today's date: " + today);
+                                </code></pre>
+                            </li>
+                            
+                            <li class="qa-item" id="java-8">
+                                <h3 class="java-question">How can you use the Collectors class in Java 8?</h3>
+                                <p class="java-answer">The <code>Collectors</code> class provides various implementations of the <code>Collector</code> interface to facilitate the reduction of data in streams.</p>
+    <pre><code> List&lt;String&gt; names = Arrays.asList("Alice", "Bob", "Charlie");
+        String concatenatedNames = names.stream()
+                                          .collect(Collectors.joining(", "));
+        System.out.println(concatenatedNames);
+                </code></pre>
+                       
+                            </li>
+                        
+                        
+                       
+                                <li class="qa-item" id="java-string">
+                                    <h3 class="java-question">What is the difference between String, StringBuilder, and StringBuffer?</h3>
+                                    <p class="java-answer">String is immutable, while StringBuilder and StringBuffer are mutable. StringBuilder is not synchronized and is faster, while StringBuffer is synchronized and thread-safe.</p>
+          <pre><code> String str = "Hello";
+            StringBuilder stringBuilder = new StringBuilder("Hello");
+            stringBuilder.append(" World!");
+            StringBuffer stringBuffer = new StringBuffer("Hello");
+            stringBuffer.append(" World!");
+            System.out.println(str); // Hello
+            System.out.println(stringBuilder); // Hello World!
+            System.out.println(stringBuffer); // Hello World!
+                    </code></pre>
+                           
+                                </li>
+                            
+                                <li class="qa-item" id="java-string">
+                                    <h3 class="java-question">How do you reverse a string in Java?</h3>
+                                    <p class="java-answer">You can reverse a string using StringBuilder or by converting it to a char array and swapping the characters.</p>
+          <pre><code>
+            String original = "Hello";
+            String reversed = new StringBuilder(original).reverse().toString();
+            System.out.println(reversed); // olleH
+                    </code></pre>
+                                </li>
+                            
+                                <li class="qa-item" id="java-string">
+                                    <h3 class="java-question">How do you check if a string contains another string?</h3>
+                                    <p class="java-answer">You can use the <code>contains</code> method of the String class.</p>
+      <pre><code>
+        String str = "Hello, World!";
+        boolean contains = str.contains("World");
+        System.out.println(contains); // true
+                </code></pre>
+                                </li>
+                            
+                                <li class="qa-item" id="java-string">
+                                    <h3 class="java-question">How do you compare two strings in Java?</h3>
+                                    <p class="java-answer">Use <code>equals</code> for content comparison and <code>compareTo</code> for lexicographical comparison.</p>
+   <pre><code>    String str1 = "Hello";
+    String str2 = "hello";
+    boolean isEqual = str1.equals(str2);
+    boolean isLexicographicallyLess = str1.compareTo(str2) < 0;
+    System.out.println(isEqual); // false
+    System.out.println(isLexicographicallyLess); // true
+            </code></pre>
+                        
+                                </li>
+                            
+                                <li class="qa-item" id="java-string">
+                                    <h3 class="java-question">How can you convert a string to an integer?</h3>
+                                    <p class="java-answer">You can use the <code>Integer.parseInt()</code> method to convert a string to an integer.</p>
+ <pre><code>   String numberString = "123";
+    int number = Integer.parseInt(numberString);
+    System.out.println(number); // 123
+            </code></pre>
+                         
+                                </li>
+                            
+                                <li class="qa-item" id="java-string">
+                                    <h3 class="java-question">What is the purpose of the String.split() method?</h3>
+                                    <p class="java-answer">The <code>split()</code> method is used to split a string into an array of substrings based on a specified delimiter.</p>
+     <pre><code> String str = "Java,Python,C++,JavaScript";
+        String[] languages = str.split(",");
+        for (String language : languages) {
+            System.out.println(language);
+        }
+        // Output:
+        // Java
+        // Python
+        // C++
+        // JavaScript
+                </code></pre>
+                           
+                                </li>
+                            
+                                <li class="qa-item" id="java-string">
+                                    <h3 class="java-question">How can you remove whitespace from a string?</h3>
+                                    <p class="java-answer">You can use the <code>trim()</code> method to remove leading and trailing whitespace from a string.</p>
+    <pre><code>String str = "   Hello World!   ";
+        String trimmed = str.trim();
+        System.out.println(trimmed); // "Hello World!"
+                </code></pre>
+                            
+                                </li>
+                         
+                               
+                        
+
+        </ol>
+        
+        
+    </div>
+</div>
+
+<script>
+    function filterQuestions() {
+        const filterValue = document.getElementById("filter").value;
+        const questions = document.querySelectorAll(".qa-item");
+
+        questions.forEach((question) => {
+            if (filterValue === "all" || question.id === filterValue) {
+                question.classList.remove("hidden");
+            } else {
+                question.classList.add("hidden");
+            }
+        });
+    }
+</script>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="about-us.html"><i class="fa fa-info-circle"></i> About Us</a></li>
+                <li><a href="contact-us.html"><i class="fa fa-envelope"></i> Contact Us</a></li>
+                <li><a href="privacy-policy.html"><i class="fa fa-shield-alt"></i> Privacy Policy</a></li>
+                <li><a href="term-condition.html"><i class="fa fa-file-contract"></i> Terms and condition</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Interview Preparation</h3>
+            <ul>
+                <li><a href="/sql-interview-questions/"><i class="fas fa-database"></i>Top Sql Interview Questions</a></li>
+                <li><a href="/java-interview-questions/"><i class="fas fa-coffee"></i> Java Interview Questions</a></li>
+                <li><a href="/spring-boot-interview-questions/"><i class="fa fa-dev"></i> Java Spring Boot Interview Questions </a></li>
+                <li><a href="/software-engineer-interview-questions/"><i class="fa fa-code"></i> Top 50 coding Questions</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Top Coding Questions </h3>
+          <ul>
+              <li><a href="/techinal-interview-questions/top-50-coding-interview-question/"><i class="fas fa-book"></i>Top 50+ Coding</a></li>
+              <li><a href="/techinal-interview-questions/sde-sheet-top-coding-interview-problems/"><i class="fas fa-dev"></i>Data Structure & Algorithms</a></li>
+              <li><a href="/roadmap/frontend-developer-roadmap/"><i class="fa fa-route"></i> Frontend Developer Roadmap</a></li>
+              <li><a href="/software-engineer-interview-questions/"><i class="fa fa-code"></i> Top Interview Question</a></li>
+          </ul>
+      </div>
+        <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <div class="social-links">
+                <a href="#" target="_blank" aria-label="Facebook"><i class="fa fa-facebook-f"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="newsletter">
+                <h4>Subscribe for Jobs Updates.</h4>
+                <form>
+                    <input type="email" placeholder="Your Email" aria-label="Email for newsletter">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Coding Career Prep. All rights reserved.</p>
+        <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></a>
+    </div>
+  </footer>
+<script src="../js/app.js"></script>
+
+</body>
+</html>

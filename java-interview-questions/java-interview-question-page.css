@@ -1,0 +1,237 @@
+body {
+    margin-left: 20%; /* Default margin for larger screens */
+    margin-right: 20%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@media (max-width: 768px) {
+    body {
+        margin-left: 2%; 
+        margin-right: 2%;
+        font-family: questrial, sans-serif;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 1%; /* Keep the same margin for very small screens */
+        margin-right: 1%;
+    }
+   
+}
+
+/* @import url(../css/styles.css); */
+:root{
+    --bgcolor:#ffffff;
+    --darktext:#000000;
+    --lighttext:rgb(68, 67, 67);
+    --themecolor:#1f9e3cea;
+    --cardbg:#ffffff;
+}
+
+[data-theme="dark"] {
+    --bgcolor: #000000; /* Dark theme background */
+    --darktext: #ffffff; /* Dark theme text */
+    --lighttext: #d1d1d1; /* Dark theme secondary text */
+    --themecolor: #1ec645ea; /* Accent color */
+    --cardbg:#3e3e3e9e;
+}
+
+.Top-Java-Interview-Questions {
+   
+    padding: 20px; /* Add some padding */
+    color: var(--darktext);
+    margin-top: 70px;
+}
+.Top-50-Java-Interview-Questions h1 {
+    font-size: 2.5rem; /* Default size for larger screens */
+    line-height: 1.2;
+    margin: 0; /* Remove default margin */
+}
+@media (max-width: 768px) {
+    .Top-50-Java-Interview-Questions h1 {
+        font-size: 2rem; /* Adjust size for medium screens */
+    }
+}
+@media (max-width: 480px) {
+   .Top-50-Java-Interview-Questions  h1 {
+        font-size: 1.5rem; /* Adjust size for small screens */
+    }
+    .java-for-beginner h2 {
+       font-size: 1.3em;
+       text-align: center;
+       color: var(--darktext);
+       
+    }
+}
+
+
+
+.java-for-beginner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.qa-section {
+    background: var(--bgcolor);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+.qa-section h2{
+   color: var(--darktext);
+}
+
+.qa-item {
+    margin-bottom: 20px;
+   
+}
+
+.java-question {
+    color: var(--lighttext);
+    
+    transition: color 0.2s;
+}
+
+.java-question:hover {
+    color: var(--themecolor);
+}
+
+.java-answer {
+    margin: 10px 0 0;
+    color: var(--lighttext);
+    text-align: left;
+}
+ol {
+    padding-left: 20px;
+    color: var(--darktext);
+}
+
+.qa-item {
+    margin-bottom: 20px;
+}
+
+
+.java-question:hover {
+    color:var(--themecolor);
+}
+.query-section {
+   
+    padding: 1px;
+    border-radius: 5px;
+    
+    position: relative;
+}
+.copy-icon {
+    position: absolute;
+    top: 9px;
+    right: 5px;
+    cursor: pointer;
+    color: var(--themecolor);
+}
+textarea {
+    width: 95%;
+     font-weight: 1000;
+     margin-top: 5px;
+     font-size: 1.5em;
+    padding: 20px;
+    border: 1px solid #fffcfc;
+    border-radius: 5px;
+    font-family: monospace;
+    background-color: #eef;
+    resize: none; /* Prevent resizing */
+    overflow: auto; /* Enable scrolling if needed */
+    height: auto;
+    min-height: 60px;
+}
+
+
+@media (max-width: 480px) {
+    .copy-icon {
+        position: absolute;
+        top: 5px;
+        right: 3px;
+        cursor: pointer;
+        
+    }
+    textarea {
+        width: 90%;
+       font-weight: 700;
+       font-size: 1em;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-family: monospace;
+        background-color: #eef;
+        resize: none; /* Prevent resizing */
+        overflow: auto; /* Enable scrolling if needed */
+        height: auto;
+    }
+
+    pre {
+        white-space: pre-wrap; 
+        word-wrap: break-word; 
+   
+        border: 1px solid #ccc; /* Border around the code block */
+        border-radius: 4px; /* Rounded corners */
+        padding: 10px; /* Padding inside the code block */
+        overflow: auto; /* Adds scrollbars if necessary */
+       
+        
+    }
+    
+   
+    
+ }
+ .hidden { 
+    display: none; 
+}
+
+.filter-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    color: var(--darktext);
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+pre {
+   margin-top: 10px;
+    /* word-wrap: break-word;  */
+    background-color:#f0ecec;/* Light gray background */
+    border: 1px solid #211d1d; /* Border around the code block */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding inside the code block */
+    overflow: auto; /* Adds scrollbars if necessary */
+
+   
+}
+
+
+code {
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+    color: black;
+}
+
+.java-answer code{
+ color: var(--themecolor);font-weight: 600;
+}
+
+label{
+    color: var(--themecolor);
+    font-weight: 800;
+}
+
+select{
+    padding: 7px;
+    font-weight: 400;
+}

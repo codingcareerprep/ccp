@@ -1,0 +1,117 @@
+
+:root{
+    --bgcolor:#ffffff;
+    --darktext:#000000;
+    --lighttext:rgb(68, 67, 67);
+    --themecolor:#1f9e3cea;
+    --cardbg:#ffffff;
+}
+
+[data-theme="dark"] {
+    --bgcolor: #000000; /* Dark theme background */
+    --darktext: #ffffff; /* Dark theme text */
+    --lighttext: #d1d1d1; /* Dark theme secondary text */
+    --themecolor: #1ec645ea; /* Accent color */
+    --cardbg:#3e3e3e9e;
+}
+
+
+
+
+body {
+    margin-left: 20%; /* Default margin for larger screens */
+    margin-right: 20%;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        margin-left: 2%; 
+        margin-right: 2%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 1%; /* Keep the same margin for very small screens */
+        margin-right: 1%;
+    }
+   
+}
+
+.sde-sheet-top-coding-interview-problems {
+   
+    margin-top: 40px;
+   
+    padding: 20px;
+    border-radius: 8px;
+   
+}
+
+.sde-sheet-top-coding-interview-problems h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    color: var(--darktext);
+}
+
+.sde-sheet-top-coding-interview-problems .filterDSA {
+    margin-bottom: 20px;
+}
+
+.filterDSA label{
+    color: var(--darktext);
+}
+
+#dsa-QuestionsList select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#dsa-QuestionsList ul {
+    list-style: none;
+    padding: 0;
+   
+}
+#dsa-QuestionsList{
+    color: var(--darktext);
+}
+
+
+#dsa-QuestionsList li {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: var(--cardbg);
+    list-style: none;
+}
+
+#dsa-QuestionsList li h3 {
+    margin: 0 0 10px;
+    color: var(--darktext);
+
+}
+
+#dsa-QuestionsList li p {
+    margin: 5px 0;
+    color: var(--darktext);
+}
+
+strong {
+    color: #007BFF;
+}
+
+@media (max-width: 600px) {
+    .sde-sheet-top-coding-interview-problems {
+        padding: 10px;
+    }
+
+    .sde-sheet-top-coding-interview-problems h1 {
+        font-size: 24px;
+    }
+
+   .sde-sheet-top-coding-interview-problems select {
+        width: 100%;
+    }
+}

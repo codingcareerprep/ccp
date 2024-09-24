@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coding Career Prep: Your ultimate resource for mastering Java, SQL, DSA, and coding interviews. Explore comprehensive courses and top interview questions to excel in your career.">
+    <title>Top Spring Boot Interview Questions | Coding Career Prep </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../media/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../media/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+    <link rel="manifest" href="../site.webmanifest"> <!-- Manifest for web apps -->
+
+
+    
+     <meta name="keywords" content="Java interview questions, SQL interview preparation, coding interview tips, DSA resources, software engineering roadmap">
+
+     
+     <link rel="canonical" href="https://codingcareerprep.com/">
+     <meta name="robots" content="index, follow">
+     
+     <!-- Open Graph Meta Tags -->
+     <meta property="og:title" content="Coding Career Prep - Your Ultimate Resource for Interview Preparation">
+     <meta property="og:description" content="Master Java, SQL, DSA, and coding interviews with comprehensive resources and top interview questions. Prepare effectively and excel in your career!">
+     <meta property="og:image" content="https://codingcareerprep.com/media/favicon-32x32.png">
+     <meta property="og:url" content="https://codingcareerprep.com/">
+     
+     
+     <!-- Twitter Card Meta Tags -->
+     <meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:title" content="Coding Career Prep - Your Ultimate Resource for Interview Preparation">
+     <meta name="twitter:description" content="Master Java, SQL, DSA, and coding interviews with comprehensive resources and top interview questions. Prepare effectively and excel in your career!">
+     <meta name="twitter:image" content="https://codingcareerprep.com/media/favicon-32x32.png">
+     <link rel="stylesheet" href="../css/styles.css">
+      <!-- Link to your CSS file -->
+      <link rel="stylesheet" href="../java-interview-questions/java-interview-question-page.css"> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+  <!-- header  start-->
+
+   <!-- header  start-->
+
+   <header>
+    <div class="container">
+        
+        <a href="/">
+            <div class="logo">
+               
+               <strong> <span>&lt;CCP/&gt;</span></strong>
+             <div class="cpp">  Coding Career Prep</div>
+            </div>
+        </a>
+        
+        
+        
+        
+        <i id="theme-toggler" class="fas fa-sun fa-2x"></i> <!-- Sun icon for light mode -->
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+      
+        <nav class="nav" aria-label="Main Navigation">
+            <ul>
+                <li><a href="/java-interview-questions/" title="Top java Interview Questions Java Tutorial">Java</a></li>
+                <li><a href="/software-engineer-interview-questions/" title="Interview Preparation Tips">Interview</a></li>
+                <li><a href="/techinal-interview-questions/top-50-coding-interview-question/" title="Top coding Question">Coding</a></li>
+                <li><a href="/techinal-interview-questions/sde-sheet-top-coding-interview-problems/" title="Data Structures and Algorithms">DSA</a></li>
+                <li><a href="/roadmap/frontend-developer-roadmap/" title="Roadmap for full-stack-developer-roadmap 2024 passout">RoadMap</a></li>
+              
+            </ul>
+        </nav>
+       
+    </div>
+</header>
+
+<!-- header  end-->
+
+<section class="Top-Java-Interview-Questions">
+    <h1 class="Top-50-Java-Interview-Questions" > <img src="../assets/java-spring-boot.png" alt="Code Icon" style="width: 48px; height: 48px;"> Spring Boot Interview Questions </h1>
+    <hr></hr>
+</section>
+
+
+<div class="java-for-beginner">
+    <div class="qa-section">
+        <h2> Top Spring Boot Interview Questions </h2>
+        <div class="filter-container">
+            <label for="filter">Select a category: </label>
+            <select id="filter" onchange="filterQuestions()">
+                <option value="all">All</option>
+                <option value="spring-boot-beginner">Spring Boot Beginner</option>
+                <option value="spring-boot-intermediate">Spring Boot Intermediate</option>
+                <option value="spring-boot-experienced">Spring Boot Experienced</option>
+              
+            </select>
+        </div>
+        
+        <ol>
+            <!-- Beginner Questions -->
+            <li class="qa-item" id="spring-boot-beginner">
+                <h3 class="java-question">What is Spring Boot?</h3>
+                <p class="java-answer">Spring Boot is an extension of the Spring framework designed to simplify the setup and development of new Spring applications.<br> It eliminates much of the boilerplate code and configuration typically required in Spring projects, allowing developers to focus on writing business logic instead of configuration.</p>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-beginner">
+                <h3 class="java-question">How do you create a Spring Boot application?</h3>
+                <p class="java-answer">You can create a Spring Boot application in several ways. The most popular method is to use the Spring Initializr, a web-based tool that allows you to select dependencies and download a pre-configured project. Alternatively, you can set up a Maven or Gradle project manually by adding the necessary dependencies in your build configuration.</p>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-beginner">
+                <h3 class="java-question">What are the main features of Spring Boot?</h3>
+                <p class="java-answer">Key features of Spring Boot include:</p>
+                <ul>
+                    <li><strong>Auto-configuration:</strong> Automatically configures your Spring application based on the dependencies present in the classpath.</li><br>
+                    <li><strong>Embedded servers:</strong> Allows you to run your application as a standalone service without needing to deploy it to an external server like Tomcat or Jetty.</li><br>
+                    <li><strong>Production-ready features:</strong> Includes built-in endpoints for monitoring and managing your application, such as health checks and metrics.</li><br>
+                </ul>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-beginner">
+                <h3 class="java-question">What is the purpose of the @SpringBootApplication annotation?</h3>
+                <p class="java-answer">The @SpringBootApplication annotation is a convenience annotation that combines three important annotations:</p>
+                <ul>
+                    <li><strong>@Configuration:</strong> Indicates that the class contains Spring configuration.</li><br>
+                    <li><strong>@EnableAutoConfiguration:</strong> Tells Spring Boot to automatically configure your application based on the dependencies present on the classpath.</li><br>
+                    <li><strong>@ComponentScan:</strong> Enables component scanning, allowing Spring to discover and register beans defined in the specified package.</li><br>
+                </ul>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-beginner">
+                <h3 class="java-question">What is the Spring Boot Starter?</h3>
+                <p class="java-answer">Starters are a set of convenient dependency descriptors that simplify the inclusion of common libraries in your project. For example, the <code>spring-boot-starter-web</code> includes everything you need to develop a web application, such as Spring MVC, Jackson for JSON processing, and Tomcat as the default embedded server.</p>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-beginner">
+                <h3 class="java-question">How do you run a Spring Boot application?</h3>
+                <p class="java-answer">You can run a Spring Boot application from the command line using the following command:</p>
+                <pre><code>mvn spring-boot:run</code></pre>
+                <p>Alternatively, you can build a JAR file and execute it with:</p>
+                <pre><code>java -jar target/myapp.jar</code></pre>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-beginner">
+                <h3 class="java-question">What is Spring Boot Actuator?</h3>
+                <p class="java-answer">Spring Boot Actuator provides built-in endpoints that help you monitor and manage your application. These endpoints can provide information about application health, metrics, environment properties, and more. You can access these endpoints through HTTP, allowing for easy integration with monitoring tools.</p>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-beginner">
+                <h3 class="java-question">What is the application.properties file used for?</h3>
+                <p class="java-answer">The <code>application.properties</code> file is used to configure application-specific properties such as server port, datasource configurations, and various Spring features. This file enables customization of your application's behavior without altering code.</p>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-beginner">
+                <h3 class="java-question">How do you connect to a database using Spring Boot?</h3>
+                <p class="java-answer">To connect to a database, you need to define the database connection properties in the <code>application.properties</code> file. For example, to connect to a MySQL database, you would configure it as follows:</p>
+                 
+      <pre><code>spring.datasource.url=jdbc:mysql://localhost:3306/mydb
+spring.datasource.username=root
+spring.datasource.password=password
+                </code></pre>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-beginner">
+                <h3 class="java-question">What is the difference between @Component, @Service, and @Repository?</h3>
+                <p class="java-answer">All three annotations are part of the Spring framework's stereotype annotations, but they serve different purposes:</p>
+                <ul>
+                    <li><strong>@Component:</strong> A generic stereotype for any Spring-managed component.</li><br>
+                    <li><strong>@Service:</strong> Specifically used for service-layer components that contain business logic.</li><br>
+                    <li><strong>@Repository:</strong> Used for data access components, enabling exception translation and encapsulating data access logic.</li><br>
+                </ul>
+            </li>
+        
+            <!-- Intermediate Questions -->
+            <li class="qa-item" id="spring-boot-intermediate">
+                <h3 class="java-question">What is the Spring Boot DevTools?</h3>
+                <p class="java-answer">DevTools is a set of tools that enhances the development experience by enabling features such as automatic restarts and hot swapping of code changes. This significantly speeds up the development process, as you can see changes reflected in the application without manually restarting it.</p>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-intermediate">
+                <h3 class="java-question">How do you handle exceptions in Spring Boot?</h3>
+                <p class="java-answer">You can manage exceptions globally using the <code>@ControllerAdvice</code> annotation, which allows you to define a centralized exception handling mechanism. Here's an example:</p>
+ <pre><code>@ControllerAdvice
+    public class GlobalExceptionHandler {
+     @ExceptionHandler(Exception.class)
+     public ResponseEntity&lt;String&gt; handleException(Exception ex) {
+         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ex.getMessage());
+     }
+ } 
+                </code></pre>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-intermediate">
+                <h3 class="java-question">What is Spring Data JPA?</h3>
+                <p class="java-answer">Spring Data JPA is part of the Spring Data project that simplifies the implementation of JPA-based repositories. It provides an easy way to interact with databases by reducing the amount of boilerplate code needed for data access and management. With Spring Data JPA, you can create repository interfaces and use them without writing implementation code.</p>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-intermediate">
+                <h3 class="java-question">What is the purpose of the @Configuration annotation?</h3>
+                <p class="java-answer">The <code>@Configuration</code> annotation indicates that a class declares one or more <code>@Bean</code> methods. The Spring container processes these classes to generate bean definitions and manage the lifecycle of these beans within the application context.</p>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-intermediate">
+                <h3 class="java-question">How can you create RESTful web services using Spring Boot?</h3>
+                <p class="java-answer">To create RESTful web services, you use the <code>@RestController</code> annotation to define a controller and the <code>@RequestMapping</code> annotation to map HTTP requests to handler methods. Here's an example:</p>
+<pre><code>@RestController
+    @RequestMapping("/api")
+    public class MyController {
+        @GetMapping("/hello")
+        public String hello() {
+            return "Hello, World!";
+        }
+    }  
+                            </code></pre>
+      
+            </li>
+            
+            <li class="qa-item" id="spring-boot-intermediate">
+                <h3 class="java-question">What is the role of the @Autowired annotation?</h3>
+                <p class="java-answer">The <code>@Autowired</code> annotation allows Spring to automatically inject the required bean into the class. This eliminates the need for manual wiring and makes the code cleaner and easier to manage.</p>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-intermediate">
+                <h3 class="java-question">How do you configure Spring Security in a Spring Boot application?</h3>
+                <p class="java-answer">You can configure Spring Security by adding the <code>spring-boot-starter-security</code> dependency to your project and creating a configuration class that extends <code>WebSecurityConfigurerAdapter</code>. Here’s a simple example:</p>
+                <pre><code>
+        @Configuration
+        @EnableWebSecurity
+        public class SecurityConfig extends WebSecurityConfigurerAdapter {
+            @Override
+            protected void configure(HttpSecurity http) throws Exception {
+                http.authorizeRequests()
+                    .anyRequest().authenticated()
+                    .and()
+                    .formLogin();
+            }
+        }
+                </code></pre>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-intermediate">
+                <h3 class="java-question">What is Spring Boot's @Value annotation used for?</h3>
+                <p class="java-answer">The <code>@Value</code> annotation is used to inject property values from the <code>application.properties</code> file into Spring-managed beans. For example:</p>
+                <pre><code>
+        @Value("${my.custom.property}")
+        private String myProperty;
+                </code></pre>
+            </li>
+        
+            <!-- Advanced Questions -->
+            <li class="qa-item" id="spring-boot-advanced">
+                <h3 class="java-question">How do you implement custom error handling in Spring Boot?</h3>
+                <p class="java-answer">You can implement custom error handling by using the <code>@ControllerAdvice</code> annotation along with <code>@ExceptionHandler</code> methods to define how to handle specific exceptions. You can also customize the error response body and status codes.</p>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-advanced">
+                <h3 class="java-question">What is the difference between @RequestMapping and @GetMapping?</h3>
+                <p class="java-answer">The <code>@RequestMapping</code> annotation is used to map web requests to specific handler methods. It can handle different HTTP methods (GET, POST, etc.). The <code>@GetMapping</code> annotation is a specialized version of <code>@RequestMapping</code> that specifically handles GET requests. Here’s an example:</p>
+                <pre><code>
+        @RestController
+        @RequestMapping("/api")
+        public class MyController {
+            @GetMapping("/items")
+            public List<Item> getItems() {
+                return itemService.findAll();
+            }
+        }
+                </code></pre>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-advanced">
+                <h3 class="java-question">What are Profiles in Spring Boot?</h3>
+                <p class="java-answer">Profiles allow you to segregate parts of your application configuration and make it available only in certain environments. For instance, you can define different <code>application-{profile}.properties</code> files for development, testing, and production, and activate them accordingly.</p>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-advanced">
+                <h3 class="java-question">How do you configure logging in Spring Boot?</h3>
+                <p class="java-answer">Spring Boot uses Apache Commons Logging for internal logging but allows you to configure various logging frameworks like Logback, Log4j2, or Java Util Logging. You can configure logging in the <code>application.properties</code> file by setting properties like:</p>
+                <pre><code>
+        logging.level.root=INFO
+        logging.file.name=app.log
+                </code></pre>
+            </li>
+            
+            <li class="qa-item" id="spring-boot-advanced">
+                <h3 class="java-question">What is a Spring Boot Starter Parent?</h3>
+                <p class="java-answer">A Spring Boot Starter Parent is a special starter that serves as a parent in a Maven project. It provides dependency management, versioning, and default configuration for various Spring Boot projects. Using it simplifies your <code>pom.xml</code> file.</p>
+            </li>
+
+            
+                <!-- Beginner Questions -->
+                <li class="qa-item" id="spring-boot-beginner-1">
+                    <h3 class="java-question">What is the difference between Spring and Spring Boot?</h3>
+                    <p class="java-answer">Spring is a comprehensive framework for building Java applications, providing a wide range of features for building enterprise-level applications. Spring Boot, on the other hand, is a project within the Spring ecosystem designed to simplify the process of developing new Spring applications by providing auto-configuration and default settings, reducing boilerplate code and configuration complexity.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-beginner-2">
+                    <h3 class="java-question">What is a Spring Boot CLI?</h3>
+                    <p class="java-answer">The Spring Boot CLI (Command Line Interface) is a tool that allows you to run Groovy scripts. It simplifies the development process by enabling rapid prototyping and testing of Spring Boot applications with minimal setup.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-beginner-3">
+                    <h3 class="java-question">How do you add dependencies in Spring Boot?</h3>
+                    <p class="java-answer">Dependencies can be added in Spring Boot by including them in your <code>pom.xml</code> file (for Maven) or <code>build.gradle</code> file (for Gradle). Each dependency can be defined within the respective section to automatically download the necessary libraries.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-beginner-4">
+                    <h3 class="java-question">What are Spring Boot Starter Projects?</h3>
+                    <p class="java-answer">Spring Boot Starter Projects are a set of convenient dependency descriptors that aggregate common libraries needed for specific tasks, such as web development or data access, making it easier to include multiple dependencies with a single starter.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-beginner-5">
+                    <h3 class="java-question">How can you customize the default server port in Spring Boot?</h3>
+                    <p class="java-answer">You can customize the default server port in Spring Boot by adding the line <code>server.port=8081</code> (or your desired port) to the <code>application.properties</code> file, allowing the application to run on the specified port.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-beginner-6">
+                    <h3 class="java-question">What is the difference between @RestController and @Controller?</h3>
+                    <p class="java-answer">@RestController is a specialized version of the @Controller annotation that automatically serializes the response body to JSON or XML. In contrast, @Controller is used when you need to return views, typically in a web application.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-beginner-7">
+                    <h3 class="java-question">How do you use Spring Boot to serve static content?</h3>
+                    <p class="java-answer">To serve static content in Spring Boot, place your static files (HTML, CSS, JavaScript) in the <code>src/main/resources/static</code> directory. Spring Boot will automatically serve these files at the root URL of your application.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-beginner-8">
+                    <h3 class="java-question">What is the purpose of the CommandLineRunner interface?</h3>
+                    <p class="java-answer">The CommandLineRunner interface allows you to execute code after the Spring application has started. It is useful for tasks like initializing data, executing startup logic, or running checks upon application start.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-beginner-9">
+                    <h3 class="java-question">What is a Spring Boot Application Listener?</h3>
+                    <p class="java-answer">An Application Listener is a component that listens for specific events within the application context, allowing you to execute custom logic in response to these events, such as when the application starts or stops.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-beginner-10">
+                    <h3 class="java-question">How do you create a custom configuration in Spring Boot?</h3>
+                    <p class="java-answer">To create custom configuration in Spring Boot, define a class annotated with @Configuration and include @Bean methods within it to declare the beans you want to manage. This allows you to provide specific configurations for your application components.</p>
+                </li>
+            
+                <!-- Intermediate Questions -->
+                <li class="qa-item" id="spring-boot-intermediate-1">
+                    <h3 class="java-question">What are Spring Profiles?</h3>
+                    <p class="java-answer">Spring Profiles allow you to group configuration properties and beans into separate profiles, enabling you to activate specific configurations based on the environment (e.g., development, testing, production) in which the application is running.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-intermediate-2">
+                    <h3 class="java-question">How do you use Spring Boot with a NoSQL database?</h3>
+                    <p class="java-answer">To use Spring Boot with a NoSQL database, you can include specific Spring Data modules, such as Spring Data MongoDB or Spring Data Cassandra, by adding their dependencies to your project and configuring them in your <code>application.properties</code> file.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-intermediate-3">
+                    <h3 class="java-question">How can you schedule tasks in Spring Boot?</h3>
+                    <p class="java-answer">You can schedule tasks in Spring Boot by using the @Scheduled annotation. You need to enable scheduling by adding @EnableScheduling to your configuration class, then you can define methods to run periodically.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-intermediate-4">
+                    <h3 class="java-question">What is Spring Boot’s Auto-Configuration?</h3>
+                    <p class="java-answer">Auto-Configuration in Spring Boot automatically configures your application based on the libraries and dependencies present in the classpath, minimizing the need for manual configurations and speeding up development.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-intermediate-5">
+                    <h3 class="java-question">How do you secure a Spring Boot application?</h3>
+                    <p class="java-answer">You can secure a Spring Boot application by using Spring Security. You will need to add the <code>spring-boot-starter-security</code> dependency and then configure authentication and authorization rules within a configuration class.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-intermediate-6">
+                    <h3 class="java-question">What is the difference between @Transactional and @EnableTransactionManagement?</h3>
+                    <p class="java-answer">@Transactional is an annotation used to define transaction boundaries at the method or class level, while @EnableTransactionManagement is an annotation used to enable Spring's annotation-driven transaction management features in your application context.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-intermediate-7">
+                    <h3 class="java-question">What are HTTP status codes?</h3>
+                    <p class="java-answer">HTTP status codes are standardized three-digit codes returned by a server in response to a client request, indicating the result of the request. Common examples include 200 (OK), 404 (Not Found), and 500 (Internal Server Error).</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-intermediate-8">
+                    <h3 class="java-question">How do you handle validation in Spring Boot?</h3>
+                    <p class="java-answer">You can handle validation in Spring Boot using JSR-303/JSR-380 annotations such as @Valid, @NotNull, and @Size on model fields. Spring will automatically enforce these validations during data binding.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-intermediate-9">
+                    <h3 class="java-question">What is the purpose of Spring Boot Starter Test?</h3>
+                    <p class="java-answer">Spring Boot Starter Test is a starter dependency that simplifies the setup of testing Spring Boot applications. It includes libraries like JUnit, Mockito, and Spring Test, making it easier to write unit and integration tests.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-intermediate-10">
+                    <h3 class="java-question">How can you enable CORS in a Spring Boot application?</h3>
+                    <p class="java-answer">You can enable CORS in a Spring Boot application by creating a configuration class that implements WebMvcConfigurer and overriding the addCorsMappings method to define allowed origins and paths.</p>
+                </li>
+            
+                <!-- Advanced Questions -->
+                <li class="qa-item" id="spring-boot-advanced-1">
+                    <h3 class="java-question">What is Spring Boot Actuator used for?</h3>
+                    <p class="java-answer">Spring Boot Actuator provides production-ready features to monitor and manage Spring Boot applications. It exposes various endpoints that can provide health checks, metrics, and application information.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-advanced-2">
+                    <h3 class="java-question">How do you implement a custom error page in Spring Boot?</h3>
+                    <p class="java-answer">To implement a custom error page in Spring Boot, create an <code>error.html</code> file in the <code>src/main/resources/templates</code> directory. This page will be rendered for any error status codes defined in your application.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-advanced-3">
+                    <h3 class="java-question">What is the difference between @Bean and @Component?</h3>
+                    <p class="java-answer">@Bean is an annotation used to declare a bean explicitly in a configuration class, while @Component is a stereotype annotation that indicates a class is a Spring-managed component, allowing for component scanning to find it automatically.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-advanced-4">
+                    <h3 class="java-question">How can you externalize configuration in Spring Boot?</h3>
+                    <p class="java-answer">You can externalize configuration in Spring Boot using properties files, YAML files, environment variables, or command-line arguments. This allows you to manage application settings without changing the code.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-advanced-5">
+                    <h3 class="java-question">What is the purpose of the @SpringBootTest annotation?</h3>
+                    <p class="java-answer">@SpringBootTest is an annotation used for integration testing in Spring Boot. It loads the full application context and enables Spring Boot features, allowing you to test your application as a whole.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-advanced-6">
+                    <h3 class="java-question">How can you create a REST client in Spring Boot?</h3>
+                    <p class="java-answer">You can create a REST client in Spring Boot using <code>RestTemplate</code> or <code>WebClient</code>. These classes allow you to make HTTP requests to external APIs and handle responses conveniently.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-advanced-7">
+                    <h3 class="java-question">What is Spring Boot’s DevTools and how does it help during development?</h3>
+                    <p class="java-answer">Spring Boot DevTools is a set of tools that enhances the development experience by providing features like automatic restarts, live reload, and improved logging, which help developers see changes in real-time without restarting the application manually.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-advanced-8">
+                    <h3 class="java-question">How do you configure caching in Spring Boot?</h3>
+                    <p class="java-answer">You can configure caching in Spring Boot by adding the <code>spring-boot-starter-cache</code> dependency and using the @EnableCaching annotation in your configuration class. You can then use caching annotations like @Cacheable, @CachePut, and @CacheEvict in your methods.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-advanced-9">
+                    <h3 class="java-question">What is Spring Cloud and how does it relate to Spring Boot?</h3>
+                    <p class="java-answer">Spring Cloud is a collection of tools for building distributed systems, and it complements Spring Boot by providing features like service discovery, configuration management, and circuit breakers, enabling easier microservices development.</p>
+                </li>
+            
+                <li class="qa-item" id="spring-boot-advanced-10">
+                    <h3 class="java-question">How can you monitor your Spring Boot application in production?</h3>
+                    <p class="java-answer">You can monitor your Spring Boot application in production using Spring Boot Actuator for health checks and metrics, and integrate with external monitoring solutions like Prometheus and Grafana to visualize and analyze application performance.</p>
+                </li>
+          
+            
+        </ol>
+        
+        
+        
+    </div>
+</div>
+
+<script>
+    function filterQuestions() {
+        const filterValue = document.getElementById("filter").value;
+        const questions = document.querySelectorAll(".qa-item");
+
+        questions.forEach((question) => {
+            if (filterValue === "all" || question.id === filterValue) {
+                question.classList.remove("hidden");
+            } else {
+                question.classList.add("hidden");
+            }
+        });
+    }
+</script>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="about-us.html"><i class="fa fa-info-circle"></i> About Us</a></li>
+                <li><a href="contact-us.html"><i class="fa fa-envelope"></i> Contact Us</a></li>
+                <li><a href="privacy-policy.html"><i class="fa fa-shield-alt"></i> Privacy Policy</a></li>
+                <li><a href="term-condition.html"><i class="fa fa-file-contract"></i> Terms and condition</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Interview Preparation</h3>
+            <ul>
+                <li><a href="/sql-interview-questions/"><i class="fas fa-database"></i>Top Sql Interview Questions</a></li>
+                <li><a href="/java-interview-questions/"><i class="fas fa-coffee"></i> Java Interview Questions</a></li>
+                <li><a href="/spring-boot-interview-questions/"><i class="fa fa-dev"></i> Java Spring Boot Interview Questions </a></li>
+                <li><a href="/software-engineer-interview-questions/"><i class="fa fa-code"></i> Top 50 coding Questions</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Top Coding Questions </h3>
+          <ul>
+              <li><a href="/techinal-interview-questions/top-50-coding-interview-question/"><i class="fas fa-book"></i>Top 50+ Coding</a></li>
+              <li><a href="/techinal-interview-questions/sde-sheet-top-coding-interview-problems/"><i class="fas fa-dev"></i>Data Structure & Algorithms</a></li>
+              <li><a href="/roadmap/frontend-developer-roadmap/"><i class="fa fa-route"></i> Frontend Developer Roadmap</a></li>
+              <li><a href="/software-engineer-interview-questions/"><i class="fa fa-code"></i> Top Interview Question</a></li>
+          </ul>
+      </div>
+        <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <div class="social-links">
+                <a href="#" target="_blank" aria-label="Facebook"><i class="fa fa-facebook-f"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="newsletter">
+                <h4>Subscribe for Jobs Updates.</h4>
+                <form>
+                    <input type="email" placeholder="Your Email" aria-label="Email for newsletter">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Coding Career Prep. All rights reserved.</p>
+        <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></a>
+    </div>
+  </footer>
+<script src="../js/app.js"></script>
+
+</body>
+</html>
