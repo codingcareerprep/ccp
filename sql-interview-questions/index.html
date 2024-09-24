@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coding Career Prep: Your ultimate resource for mastering Java, SQL, DSA, and coding interviews. Explore comprehensive courses and top interview questions to excel in your career.">
+    <title>Top SQL Interview Quesions and Answer | Coding Career Prep </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../media/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../media/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../media/apple-touch-icon.png">
+    <link rel="manifest" href="../site.webmanifest"> <!-- Manifest for web apps -->
+
+
+    
+     <meta name="keywords" content="Java interview questions, SQL interview preparation, coding interview tips, DSA resources, software engineering roadmap">
+
+     
+     <link rel="canonical" href="https://codingcareerprep.com/">
+     <meta name="robots" content="index, follow">
+     
+     <!-- Open Graph Meta Tags -->
+     <meta property="og:title" content="Coding Career Prep - Your Ultimate Resource for Interview Preparation">
+     <meta property="og:description" content="Master Java, SQL, DSA, and coding interviews with comprehensive resources and top interview questions. Prepare effectively and excel in your career!">
+     <meta property="og:image" content="https://codingcareerprep.com/media/favicon-32x32.png">
+     <meta property="og:url" content="https://codingcareerprep.com/">
+     
+     
+     <!-- Twitter Card Meta Tags -->
+     <meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:title" content="Coding Career Prep - Your Ultimate Resource for Interview Preparation">
+     <meta name="twitter:description" content="Master Java, SQL, DSA, and coding interviews with comprehensive resources and top interview questions. Prepare effectively and excel in your career!">
+     <meta name="twitter:image" content="https://codingcareerprep.com/media/favicon-32x32.png">
+     <link rel="stylesheet" href="../css/styles.css">
+      <!-- Link to your CSS file -->
+      <link rel="stylesheet" href="sql-interview-questions-page.css"> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+  <!-- header  start-->
+
+   <!-- header  start-->
+   <header>
+    <div class="container">
+        
+        <a href="/">
+            <div class="logo">
+               
+               <strong> <span>&lt;CCP/&gt;</span></strong>
+             <div class="cpp">  Coding Career Prep</div>
+            </div>
+        </a>
+        
+        
+        
+        
+        <i id="theme-toggler" class="fas fa-sun fa-2x"></i> <!-- Sun icon for light mode -->
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+      
+        <nav class="nav" aria-label="Main Navigation">
+            <ul>
+                <li><a href="/java-interview-questions/" title="Top java Interview Questions Java Tutorial">Java</a></li>
+                <li><a href="/software-engineer-interview-questions/" title="Interview Preparation Tips">Interview</a></li>
+                <li><a href="/techinal-interview-questions/top-50-coding-interview-question/" title="Top coding Question">Coding</a></li>
+                <li><a href="/techinal-interview-questions/sde-sheet-top-coding-interview-problems/" title="Data Structures and Algorithms">DSA</a></li>
+                <li><a href="/roadmap/frontend-developer-roadmap/" title="Roadmap for full-stack-developer-roadmap 2024 passout">RoadMap</a></li>
+              
+            </ul>
+        </nav>
+       
+    </div>
+</header>
+
+<!-- header  end-->
+
+<section class="Top-SQL-Interview-Questions">
+    <h1 class="Top-50-SQL-Interview-Questions" ><i class="fa fa-database"></i>  SQL Interview Questions </h1>
+    <hr></hr>
+</section>
+
+
+<div class="sql-for-beginner">
+    <div class="qa-section">
+        <h2>SQL Interview Questions for Beginners </h2>
+        
+        <ol>
+            <li class="qa-item">
+                <h3 class="sql-question">What is SQL?</h3>
+                <p class="sql-answer">SQL (Structured Query Language) is a standard programming language specifically designed for managing and manipulating relational databases. It allows users to create, read, update, and delete data.</p>
+            </li>
+            <li class="qa-item">
+                <h3 class="sql-question">What is a primary key?</h3>
+                <p class="sql-answer">A primary key is a unique identifier for a record in a table, ensuring that no two rows have the same value in that column.</p>
+            </li>
+            <li class="qa-item">
+                <h3 class="sql-question">What is a JOIN in SQL?</h3>
+                <p class="sql-answer">A JOIN clause is used to combine rows from two or more tables based on a related column between them.</p>
+            </li>
+            <li class="qa-item">
+                <h3 class="sql-question">What is the difference between INNER JOIN and LEFT JOIN?</h3>
+                <p class="sql-answer"> <strong>INNER JOIN</strong> returns only the rows where there is a match in both tables.<br>
+                    <br><strong>LEFT JOIN</strong> (or LEFT OUTER JOIN) returns all rows from the left table and the matched rows from the right table. If there is no match, NULL values are returned for columns from the right table.</p>
+            </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to create a new table?</h3>
+                    <p class="sql-answer">Creates a new table named 'employees' with specified columns.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>CREATE TABLE employees (id INT PRIMARY KEY, first_name VARCHAR(50), last_name VARCHAR(50), department_id INT);</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">What are the different types of SQL commands?</h3>
+                    <p class="sql-answer">SQL commands are classified into several types: DDL (Data Definition Language), DML (Data Manipulation Language), DCL (Data Control Language), and TCL (Transaction Control Language).</p>
+                </li>
+
+                <li class="qa-item">
+                    <h3 class="sql-question">How to insert a new record into a table?</h3>
+                    <p class="sql-answer">Inserts a new employee record into the employees table.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>INSERT INTO employees (first_name, last_name, department_id) VALUES ('John', 'Doe', 1);</textarea>
+                    </div>
+                </li>
+            
+
+                
+                <li class="qa-item">
+                    <h3 class="sql-question">How to update an existing record?</h3>
+                    <p class="sql-answer">Updates the last name of an employee based on their ID.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>UPDATE employees SET last_name = 'Smith' WHERE id = 1;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to delete a record from a table?</h3>
+                    <p class="sql-answer">Deletes an employee record based on their ID.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>DELETE FROM employees WHERE id = 1;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to alter a table to add a new column?</h3>
+                    <p class="sql-answer">Adds a new column 'email' to the employees table.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>ALTER TABLE employees ADD email VARCHAR(100);</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to change a column's data type?</h3>
+                    <p class="sql-answer">Modifies the data type of the 'department_id' column to BIGINT.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>ALTER TABLE employees ALTER COLUMN department_id BIGINT;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to rename a table?</h3>
+                    <p class="sql-answer">Renames the employees table to staff.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>ALTER TABLE employees RENAME TO staff;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to drop a table?</h3>
+                    <p class="sql-answer">Removes the employees table from the database.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>DROP TABLE employees;</textarea>
+                    </div>
+                </li>
+            
+            
+            
+            <!-- <div class="query-section">
+                <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                    <i class="fas fa-clone" aria-hidden="true"></i>
+
+                </span>
+                <textarea id="sql-input" readonly>SELECT MAX(salary) AS max_salary FROM employees;</textarea>
+              
+            </div> -->
+
+            
+
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to select all records from a table?</h3>
+                    <p class="sql-answer">Retrieves all columns and rows from the employees table.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT * FROM employees;</textarea>
+                    </div>
+                </li>
+                
+                <li class="qa-item">
+                    <h3 class="sql-question">How to select specific columns?</h3>
+                    <p class="sql-answer">Retrieves only the first_name and last_name columns.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT first_name, last_name FROM employees;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to filter records with WHERE?</h3>
+                    <p class="sql-answer">Selects all employees in the Sales department.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT * FROM employees WHERE department = 'Sales';</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to order records?</h3>
+                    <p class="sql-answer">Retrieves all employees ordered by hire date in descending order.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT * FROM employees ORDER BY hire_date DESC;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to count records?</h3>
+                    <p class="sql-answer">Returns the total number of records in the employees table.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT COUNT(*) FROM employees;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to use GROUP BY?</h3>
+                    <p class="sql-answer">Counts the number of employees in each department.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT department, COUNT(*) FROM employees GROUP BY department;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to use HAVING?</h3>
+                    <p class="sql-answer">Retrieves departments with more than 10 employees.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT department, COUNT(*) FROM employees GROUP BY department HAVING COUNT(*) > 10;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to join tables?</h3>
+                    <p class="sql-answer">Joins employees and departments tables to get employee names with their respective department names.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT e.first_name, e.last_name, d.department_name FROM employees e JOIN departments d ON e.department_id = d.id;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to insert records?</h3>
+                    <p class="sql-answer">Adds a new employee record to the employees table.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>INSERT INTO employees (first_name, last_name, department_id) VALUES ('John', 'Doe', 1);</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to update records?</h3>
+                    <p class="sql-answer">Updates the department of John Doe.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>UPDATE employees SET department_id = 2 WHERE first_name = 'John' AND last_name = 'Doe';</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to delete records?</h3>
+                    <p class="sql-answer">Deletes records of employees with the last name Doe.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>DELETE FROM employees WHERE last_name = 'Doe';</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to find duplicates?</h3>
+                    <p class="sql-answer">Identifies duplicate employee names.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT first_name, last_name, COUNT(*) FROM employees GROUP BY first_name, last_name HAVING COUNT(*) > 1;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to use DISTINCT?</h3>
+                    <p class="sql-answer">Retrieves unique department names from the employees table.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT DISTINCT department FROM employees;</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to use subqueries?</h3>
+                    <p class="sql-answer">Selects employees who belong to the Sales department using a subquery.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT * FROM employees WHERE department_id = (SELECT id FROM departments WHERE department_name = 'Sales');</textarea>
+                    </div>
+                </li>
+            
+                <li class="qa-item">
+                    <h3 class="sql-question">How to limit results?</h3>
+                    <p class="sql-answer">Retrieves the first five records from the employees table.</p>
+                    <div class="query-section">
+                        <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                            <i class="fas fa-clone" aria-hidden="true"></i>
+                        </span>
+                        <textarea id="sql-input" readonly>SELECT * FROM employees LIMIT 5;</textarea>
+                    </div>
+                </li>
+            
+            
+
+
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">How to find the second highest salary using a subquery?</h3>
+                        <p class="sql-answer">This query retrieves the second highest salary from the employees table using a subquery.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly>SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees);</textarea>
+                        </div>
+                    </li>
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">How to find the second highest salary using the DISTINCT keyword?</h3>
+                        <p class="sql-answer">This query retrieves the second highest salary by using DISTINCT to filter unique salary values.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly>SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1;</textarea>
+                        </div>
+                    </li>
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">How to find the second highest salary using a Common Table Expression (CTE)?</h3>
+                        <p class="sql-answer">This query utilizes a CTE to rank salaries and retrieve the second highest.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly>WITH RankedSalaries AS (SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk FROM employees) SELECT salary FROM RankedSalaries WHERE rnk = 2;</textarea>
+                        </div>
+                    </li>
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">How to find the second highest salary using GROUP BY?</h3>
+                        <p class="sql-answer">This query groups salaries and retrieves the second highest using HAVING.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly>SELECT salary FROM employees GROUP BY salary ORDER BY salary DESC LIMIT 1 OFFSET 1;</textarea>
+                        </div>
+                    </li>
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">How to find the second highest salary with a subquery and the COUNT function?</h3>
+                        <p class="sql-answer">This query finds the second highest salary by counting distinct salaries.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly>SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1;</textarea>
+                        </div>
+                    </li>
+                
+                
+               
+                    <li class="qa-item">
+                        <h3 class="sql-question">What is the difference between INNER JOIN, LEFT JOIN, and RIGHT JOIN?</h3>
+                        <p class="sql-answer">INNER JOIN returns only matching rows; LEFT JOIN returns all rows from the left table and matching rows from the right; RIGHT JOIN returns all rows from the right table and matching rows from the left.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly>SELECT * FROM employees e LEFT JOIN departments d ON e.department_id = d.id;
+                               
+                            </textarea>
+                        </div>
+                    </li>
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">What is a subquery?</h3>
+                        <p class="sql-answer">A subquery is a query nested inside another query, used to retrieve data that will be used in the main query.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly> SELECT * FROM employees  WHERE department_id = (SELECT id FROM departments WHERE department_name = 'Sales');
+                               
+                            </textarea>
+                        </div>
+                    </li>
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">What is normalization?</h3>
+                        <p class="sql-answer">Normalization is the process of organizing data to minimize redundancy and improve data integrity.</p>
+                        
+                    </li>
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">How do you use the GROUP BY clause?</h3>
+                        <p class="sql-answer">GROUP BY aggregates results based on one or more columns.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly>SELECT department, COUNT(*) FROM employees GROUP BY department;
+                                                               
+                                                               
+                               
+                            </textarea>
+                        </div>
+                    </li>
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">What are indexes, and why are they used?</h3>
+                        <p class="sql-answer">Indexes are data structures that improve the speed of data retrieval operations on a database table at the cost of additional space and maintenance time.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly>CREATE INDEX idx_employee_lastname ON employees(last_name);
+                               
+                            </textarea>
+                        </div>
+                    </li>
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">Explain the concept of a stored procedure.</h3>
+                        <p class="sql-answer">A stored procedure is a precompiled collection of one or more SQL statements that can be executed as a single unit.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly>CREATE PROCEDURE GetEmployeesByDepartment(@dept_id INT) AS  BEGIN
+                                                              SELECT * FROM employees WHERE department_id = @dept_id;   END;
+                                                            
+                                                            
+                               
+                               
+                            </textarea>
+                        </div>
+                    </li>
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">What is a view in SQL?</h3>
+                        <p class="sql-answer">A view is a virtual table based on the result set of a SQL query. It can simplify complex queries.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly>CREATE VIEW SalesEmployees AS SELECT * FROM employees WHERE department_id = (SELECT id FROM departments WHERE department_name = 'Sales');
+                                                               
+                               
+                               
+                            </textarea>
+                        </div>
+                    </li>
+                
+                    <li class="qa-item">
+                        <h3 class="sql-question">How can you improve query performance?</h3>
+                        <p class="sql-answer">Query performance can be improved by indexing, optimizing queries, avoiding unnecessary columns, and analyzing query execution plans.</p>
+                        <div class="query-section">
+                            <span class="copy-icon" id="copy-icon" title="Copy to clipboard">
+                                <i class="fas fa-clone" aria-hidden="true"></i>
+                            </span>
+                            <textarea id="sql-input" readonly>EXPLAIN SELECT * FROM employees WHERE department = 'Sales';
+                               
+                               
+                            </textarea>
+                        </div>
+                    </li>
+                
+                   
+                        <li class="qa-item">
+                            <h3 class="sql-question">What is a CROSS JOIN?</h3>
+                            <p class="sql-answer">CROSS JOIN returns the Cartesian product of two tables, combining all rows from the first table with all rows from the second table.</p>
+                            <div class="query-section">
+                                <span class="copy-icon" title="Copy to clipboard">
+                                    <i class="fas fa-clone" aria-hidden="true"></i>
+                                </span>
+                                <textarea id="sql-input" readonly>SELECT * FROM employees CROSS JOIN departments;</textarea>
+                            </div>
+                        </li>
+                    
+                        <li class="qa-item">
+                            <h3 class="sql-question">How to perform a SELF JOIN?</h3>
+                            <p class="sql-answer">A SELF JOIN is used to join a table to itself to compare rows within the same table.</p>
+                            <div class="query-section">
+                                <span class="copy-icon" title="Copy to clipboard">
+                                    <i class="fas fa-clone" aria-hidden="true"></i>
+                                </span>
+                                <textarea id="sql-input" readonly>SELECT a.first_name, b.first_name FROM employees a JOIN employees b ON a.manager_id = b.id;</textarea>
+                            </div>
+                        </li>
+                    
+                        <li class="qa-item">
+                            <h3 class="sql-question">What is a NATURAL JOIN?</h3>
+                            <p class="sql-answer">NATURAL JOIN automatically joins tables based on columns with the same names and types.</p>
+                            <div class="query-section">
+                                <span class="copy-icon" title="Copy to clipboard">
+                                    <i class="fas fa-clone" aria-hidden="true"></i>
+                                </span>
+                                <textarea id="sql-input" readonly>SELECT * FROM employees NATURAL JOIN departments;</textarea>
+                            </div>
+                        </li>
+                    
+                        <li class="qa-item">
+                            <h3 class="sql-question">How to use FULL OUTER JOIN?</h3>
+                            <p class="sql-answer">FULL OUTER JOIN returns all records when there is a match in either left or right table records.</p>
+                            <div class="query-section">
+                                <span class="copy-icon" title="Copy to clipboard">
+                                    <i class="fas fa-clone" aria-hidden="true"></i>
+                                </span>
+                                <textarea id="sql-input" readonly>SELECT * FROM employees FULL OUTER JOIN departments ON employees.department_id = departments.id;</textarea>
+                            </div>
+                        </li>
+                    
+                        <li class="qa-item">
+                            <h3 class="sql-question">How to use LEFT JOIN with multiple conditions?</h3>
+                            <p class="sql-answer">LEFT JOIN can include multiple conditions using AND.</p>
+                            <div class="query-section">
+                                <span class="copy-icon" title="Copy to clipboard">
+                                    <i class="fas fa-clone" aria-hidden="true"></i>
+                                </span>
+                                <textarea id="sql-input" readonly>SELECT e.first_name, d.department_name FROM employees e LEFT JOIN departments d ON e.department_id = d.id AND e.status = 'active';</textarea>
+                            </div>
+                        </li>
+                    
+                        <li class="qa-item">
+                            <h3 class="sql-question">How to use INNER JOIN with aggregate functions?</h3>
+                            <p class="sql-answer">INNER JOIN can be combined with aggregate functions to summarize data.</p>
+                            <div class="query-section">
+                                <span class="copy-icon" title="Copy to clipboard">
+                                    <i class="fas fa-clone" aria-hidden="true"></i>
+                                </span>
+                                <textarea id="sql-input" readonly>SELECT d.department_name, COUNT(e.id) FROM employees e INNER JOIN departments d ON e.department_id = d.id GROUP BY d.department_name;</textarea>
+                            </div>
+                        </li>
+                    
+                        <li class="qa-item">
+                            <h3 class="sql-question">How to use LEFT JOIN with COALESCE?</h3>
+                            <p class="sql-answer">LEFT JOIN can use COALESCE to replace NULL values with a default value.</p>
+                            <div class="query-section">
+                                <span class="copy-icon" title="Copy to clipboard">
+                                    <i class="fas fa-clone" aria-hidden="true"></i>
+                                </span>
+                                <textarea id="sql-input" readonly>SELECT e.first_name, COALESCE(d.department_name, 'No Department') FROM employees e LEFT JOIN departments d ON e.department_id = d.id;</textarea>
+                            </div>
+                        </li>
+                    
+                        <li class="qa-item">
+                            <h3 class="sql-question">How to join three tables?</h3>
+                            <p class="sql-answer">Joining multiple tables can be done by chaining JOIN statements.</p>
+                            <div class="query-section">
+                                <span class="copy-icon" title="Copy to clipboard">
+                                    <i class="fas fa-clone" aria-hidden="true"></i>
+                                </span>
+                                <textarea id="sql-input" readonly>SELECT e.first_name, d.department_name, p.project_name FROM employees e JOIN departments d ON e.department_id = d.id JOIN projects p ON e.project_id = p.id;</textarea>
+                            </div>
+                        </li>
+                   
+                    
+            
+    <li class="qa-item">
+        <h3 class="sql-question">How to use the LIKE operator to find names that start with a specific letter?</h3>
+        <p class="sql-answer">This query retrieves all employee names that start with the letter 'A'.</p>
+        <div class="query-section">
+            <span class="copy-icon" title="Copy to clipboard">
+                <i class="fas fa-clone" aria-hidden="true"></i>
+            </span>
+            <textarea id="sql-input" readonly>SELECT * FROM employees WHERE first_name LIKE 'A%';</textarea>
+        </div>
+    </li>
+
+    <li class="qa-item">
+        <h3 class="sql-question">How to use the LIKE operator to find names that contain a specific substring?</h3>
+        <p class="sql-answer">This query finds all employee names that contain the substring 'son'.</p>
+        <div class="query-section">
+            <span class="copy-icon" title="Copy to clipboard">
+                <i class="fas fa-clone" aria-hidden="true"></i>
+            </span>
+            <textarea id="sql-input" readonly>SELECT * FROM employees WHERE last_name LIKE '%son%';</textarea>
+        </div>
+    </li>
+
+    <li class="qa-item">
+        <h3 class="sql-question">How to use the LIKE operator to find names ending with a specific suffix?</h3>
+        <p class="sql-answer">This query retrieves all employee names that end with 'n'.</p>
+        <div class="query-section">
+            <span class="copy-icon" title="Copy to clipboard">
+                <i class="fas fa-clone" aria-hidden="true"></i>
+            </span>
+            <textarea id="sql-input" readonly>SELECT * FROM employees WHERE first_name LIKE '%n';</textarea>
+        </div>
+    </li>
+
+    <li class="qa-item">
+        <h3 class="sql-question">How to use regular expressions to find names that start with a vowel?</h3>
+        <p class="sql-answer">This query retrieves all employee names that start with any vowel using regular expressions.</p>
+        <div class="query-section">
+            <span class="copy-icon" title="Copy to clipboard">
+                <i class="fas fa-clone" aria-hidden="true"></i>
+            </span>
+            <textarea id="sql-input" readonly>SELECT * FROM employees WHERE first_name REGEXP '^[AEIOU]';</textarea>
+        </div>
+    </li>
+
+    <li class="qa-item">
+        <h3 class="sql-question">How to use regular expressions to find names with a specific pattern?</h3>
+        <p class="sql-answer">This query finds all employee names that have 'a' followed by any two characters and then 'e'.</p>
+        <div class="query-section">
+            <span class="copy-icon" title="Copy to clipboard">
+                <i class="fas fa-clone" aria-hidden="true"></i>
+            </span>
+            <textarea id="sql-input" readonly>SELECT * FROM employees WHERE first_name REGEXP 'a..e';</textarea>
+        </div>
+    </li>
+
+    <li class="qa-item">
+        <h3 class="sql-question">How to use regular expressions to find names with specific lengths?</h3>
+        <p class="sql-answer">This query retrieves names that are exactly five characters long.</p>
+        <div class="query-section">
+            <span class="copy-icon" title="Copy to clipboard">
+                <i class="fas fa-clone" aria-hidden="true"></i>
+            </span>
+            <textarea id="sql-input" readonly>SELECT * FROM employees WHERE LENGTH(first_name) = 5;</textarea>
+        </div>
+    </li>
+
+
+            
+        </ol>
+        
+    </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="about-us.html"><i class="fa fa-info-circle"></i> About Us</a></li>
+                <li><a href="contact-us.html"><i class="fa fa-envelope"></i> Contact Us</a></li>
+                <li><a href="privacy-policy.html"><i class="fa fa-shield-alt"></i> Privacy Policy</a></li>
+                <li><a href="term-condition.html"><i class="fa fa-file-contract"></i> Terms and condition</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Interview Preparation</h3>
+            <ul>
+                <li><a href="/sql-interview-questions/"><i class="fas fa-database"></i>Top Sql Interview Questions</a></li>
+                <li><a href="/java-interview-questions/"><i class="fas fa-coffee"></i> Java Interview Questions</a></li>
+                <li><a href="/spring-boot-interview-questions/"><i class="fa fa-dev"></i> Java Spring Boot Interview Questions </a></li>
+                <li><a href="/software-engineer-interview-questions/"><i class="fa fa-code"></i> Top 50 coding Questions</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Top Coding Questions </h3>
+          <ul>
+              <li><a href="/techinal-interview-questions/top-50-coding-interview-question/"><i class="fas fa-book"></i>Top 50+ Coding</a></li>
+              <li><a href="/techinal-interview-questions/sde-sheet-top-coding-interview-problems/"><i class="fas fa-dev"></i>Data Structure & Algorithms</a></li>
+              <li><a href="/roadmap/frontend-developer-roadmap/"><i class="fa fa-route"></i> Frontend Developer Roadmap</a></li>
+              <li><a href="/software-engineer-interview-questions/"><i class="fa fa-code"></i> Top Interview Question</a></li>
+          </ul>
+      </div>
+        <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <div class="social-links">
+                <a href="#" target="_blank" aria-label="Facebook"><i class="fa fa-facebook-f"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="newsletter">
+                <h4>Subscribe for Jobs Updates.</h4>
+                <form>
+                    <input type="email" placeholder="Your Email" aria-label="Email for newsletter">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Coding Career Prep. All rights reserved.</p>
+        <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></a>
+    </div>
+  </footer>
+
+<script src="../js/app.js" async></script>
+
+</body>
+</html>

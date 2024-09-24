@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coding Career Prep: Your ultimate resource for mastering Java, SQL, DSA, and coding interviews. Explore comprehensive courses and top interview questions to excel in your career.">
+    <title> SDE Sheet 2024- Coding Career Prep</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../../media/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../media/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../media/apple-touch-icon.png">
+    <link rel="manifest" href="../../site.webmanifest"> <!-- Manifest for web apps -->
+
+
+    
+     <meta name="keywords" content="Java interview questions, SQL interview preparation, coding interview tips, DSA resources, software engineering roadmap">
+
+     
+     <link rel="canonical" href="https://codingcareerprep.com/">
+     <meta name="robots" content="index, follow">
+     
+     <!-- Open Graph Meta Tags -->
+     <meta property="og:title" content="Coding Career Prep - Your Ultimate Resource for Interview Preparation">
+     <meta property="og:description" content="Master Java, SQL, DSA, and coding interviews with comprehensive resources and top interview questions. Prepare effectively and excel in your career!">
+     <meta property="og:image" content="https://codingcareerprep.com/media/favicon-32x32.png">
+     <meta property="og:url" content="https://codingcareerprep.com/">
+     
+     
+     <!-- Twitter Card Meta Tags -->
+     <meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:title" content="Coding Career Prep - Your Ultimate Resource for Interview Preparation">
+     <meta name="twitter:description" content="Master Java, SQL, DSA, and coding interviews with comprehensive resources and top interview questions. Prepare effectively and excel in your career!">
+     <meta name="twitter:image" content="https://codingcareerprep.com/media/favicon-32x32.png">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="sde-sheet-top-coding-interview-problems.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+     <!-- header  start-->
+
+     <header>
+        <div class="container">
+            
+            <a href="/">
+                <div class="logo">
+                   
+                   <strong> <span>&lt;CCP/&gt;</span></strong>
+                 <div class="cpp">  Coding Career Prep</div>
+                </div>
+            </a>
+            
+            
+            
+            
+            <i id="theme-toggler" class="fas fa-sun fa-2x"></i> <!-- Sun icon for light mode -->
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+          
+            <nav class="nav" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="/java-interview-questions/" title="Top java Interview Questions Java Tutorial">Java</a></li>
+                    <li><a href="/software-engineer-interview-questions/" title="Interview Preparation Tips">Interview</a></li>
+                    <li><a href="/techinal-interview-questions/top-50-coding-interview-question/" title="Top coding Question">Coding</a></li>
+                    <li><a href="/techinal-interview-questions/sde-sheet-top-coding-interview-problems/" title="Data Structures and Algorithms">DSA</a></li>
+                    <li><a href="/roadmap/frontend-developer-roadmap/" title="Roadmap for full-stack-developer-roadmap 2024 passout">RoadMap</a></li>
+                    <li><a href="/sql-interview-questions/" title="Top SQl Interview Questions Java Tutorial">SQL</a></li>
+                </ul>
+            </nav>
+           
+        </div>
+    </header>
+<!-- header  end-->
+
+    <div class="sde-sheet-top-coding-interview-problems">
+        <h1>SDE Sheet for DSA Interview Questions</h1>
+        <div class="filterDSA">
+            <label for="topicFilter">Filter by Topic:</label>
+            <select id="topicFilter">
+                <option value="all">All</option>
+                <option value="array">Array</option>
+                <option value="sorting">Sorting</option>
+                <option value="string">String</option>
+                <option value="stack">Stack</option>
+                <option value="queue">Queue</option>
+                <option value="linkedlist">Linked List</option>
+                <option value="tree">Tree</option>
+            </select>
+        </div>
+        <ul id="dsa-QuestionsList">
+            <li data-topic="array">
+                <h3>Two Sum</h3>
+                <p>Given an array of integers, return indices of the two numbers such that they add up to a specific target.</p>
+                <strong>Input:</strong> nums = [2, 7, 11, 15], target = 9<br>
+                <strong>Output:</strong> [0, 1]
+            </li>
+            <li data-topic="array">
+                <h3>Binary Search</h3>
+                <p>Implement a binary search algorithm to find the index of a target value in a sorted array.</p>
+                <strong>Input:</strong> nums = [1, 2, 3, 4, 5], target = 3<br>
+                <strong>Output:</strong> 2
+            </li>
+            <li data-topic="sorting">
+                <h3>Merge Intervals</h3>
+                <p>Given a collection of intervals, merge all overlapping intervals.</p>
+                <strong>Input:</strong> intervals = [[1,3],[2,6],[8,10],[15,18]]<br>
+                <strong>Output:</strong> [[1,6],[8,10],[15,18]]
+            </li>
+            <li data-topic="string">
+                <h3>Valid Anagram</h3>
+                <p>Determine if two strings are anagrams of each other.</p>
+                <strong>Input:</strong> s = "anagram", t = "nagaram"<br>
+                <strong>Output:</strong> true
+            </li>
+            <li data-topic="stack">
+                <h3>Implement Queue using Stacks</h3>
+                <p>Implement a first in first out (FIFO) queue using two stacks.</p>
+                <strong>Input:</strong> push(1), push(2), pop(), peek()<br>
+                <strong>Output:</strong> 1
+            </li>
+            <li data-topic="stack">
+                <h3>Valid Parentheses</h3>
+                <p>Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.</p>
+                <strong>Input:</strong> s = "({[]})"<br>
+                <strong>Output:</strong> true
+            </li>
+            <li data-topic="queue">
+                <h3>Queue using Stacks</h3>
+                <p>Implement a queue using two stacks.</p>
+                <strong>Input:</strong> enqueue(1), enqueue(2), dequeue()<br>
+                <strong>Output:</strong> 1
+            </li>
+            <li data-topic="linkedlist">
+                <h3>Reverse Linked List</h3>
+                <p>Reverse a singly linked list.</p>
+                <strong>Input:</strong> head = [1,2,3,4,5]<br>
+                <strong>Output:</strong> [5,4,3,2,1]
+            </li>
+            <li data-topic="tree">
+                <h3>Lowest Common Ancestor of a Binary Tree</h3>
+                <p>Find the lowest common ancestor (LCA) of two given nodes in a binary tree.</p>
+                <strong>Input:</strong> root = [3,5,1,6,2,0,8], p = 5, q = 1<br>
+                <strong>Output:</strong> 3
+            </li>
+            <li data-topic="tree">
+                <h3>Inorder Traversal of a Binary Tree</h3>
+                <p>Perform an inorder traversal of a binary tree.</p>
+                <strong>Input:</strong> root = [1,null,2,3]<br>
+                <strong>Output:</strong> [1,3,2]
+            </li>
+            <li data-topic="array">
+                <h3>Two Sum</h3>
+                <p>Given an array of integers, return indices of the two numbers such that they add up to a specific target.</p>
+                <strong>Input:</strong> nums = [2, 7, 11, 15], target = 9<br>
+                <strong>Output:</strong> [0, 1]
+            </li>
+            <li data-topic="array">
+                <h3>Binary Search</h3>
+                <p>Implement a binary search algorithm to find the index of a target value in a sorted array.</p>
+                <strong>Input:</strong> nums = [1, 2, 3, 4, 5], target = 3<br>
+                <strong>Output:</strong> 2
+            </li>
+            <li data-topic="sorting">
+                <h3>Merge Intervals</h3>
+                <p>Given a collection of intervals, merge all overlapping intervals.</p>
+                <strong>Input:</strong> intervals = [[1,3],[2,6],[8,10],[15,18]]<br>
+                <strong>Output:</strong> [[1,6],[8,10],[15,18]]
+            </li>
+            <li data-topic="string">
+                <h3>Valid Anagram</h3>
+                <p>Determine if two strings are anagrams of each other.</p>
+                <strong>Input:</strong> s = "anagram", t = "nagaram"<br>
+                <strong>Output:</strong> true
+            </li>
+            <li data-topic="stack">
+                <h3>Implement Queue using Stacks</h3>
+                <p>Implement a first in first out (FIFO) queue using two stacks.</p>
+                <strong>Input:</strong> push(1), push(2), pop(), peek()<br>
+                <strong>Output:</strong> 1
+            </li>
+            <li data-topic="stack">
+                <h3>Valid Parentheses</h3>
+                <p>Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.</p>
+                <strong>Input:</strong> s = "({[]})"<br>
+                <strong>Output:</strong> true
+            </li>
+            <li data-topic="queue">
+                <h3>Queue using Stacks</h3>
+                <p>Implement a queue using two stacks.</p>
+                <strong>Input:</strong> enqueue(1), enqueue(2), dequeue()<br>
+                <strong>Output:</strong> 1
+            </li>
+            <li data-topic="linkedlist">
+                <h3>Reverse Linked List</h3>
+                <p>Reverse a singly linked list.</p>
+                <strong>Input:</strong> head = [1,2,3,4,5]<br>
+                <strong>Output:</strong> [5,4,3,2,1]
+            </li>
+            <li data-topic="tree">
+                <h3>Lowest Common Ancestor of a Binary Tree</h3>
+                <p>Find the lowest common ancestor (LCA) of two given nodes in a binary tree.</p>
+                <strong>Input:</strong> root = [3,5,1,6,2,0,8], p = 5, q = 1<br>
+                <strong>Output:</strong> 3
+            </li>
+            <li data-topic="tree">
+                <h3>Inorder Traversal of a Binary Tree</h3>
+                <p>Perform an inorder traversal of a binary tree.</p>
+                <strong>Input:</strong> root = [1,null,2,3]<br>
+                <strong>Output:</strong> [1,3,2]
+            </li>
+
+            <!-- Additional Questions -->
+            <li data-topic="array">
+                <h3>Contains Duplicate</h3>
+                <p>Given an integer array, find if the array contains any duplicates.</p>
+                <strong>Input:</strong> nums = [1,2,3,1]<br>
+                <strong>Output:</strong> true
+            </li>
+            <li data-topic="array">
+                <h3>Product of Array Except Self</h3>
+                <p>Given an array nums of n integers where n > 1, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].</p>
+                <strong>Input:</strong> nums = [1,2,3,4]<br>
+                <strong>Output:</strong> [24,12,8,6]
+            </li>
+            <li data-topic="array">
+                <h3>Maximum Subarray</h3>
+                <p>Find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.</p>
+                <strong>Input:</strong> nums = [-2,1,-3,4,-1,2,1,-5,4]<br>
+                <strong>Output:</strong> 6
+            </li>
+            <li data-topic="array">
+                <h3>Rotate Array</h3>
+                <p>Rotate the array to the right by k steps, where k is non-negative.</p>
+                <strong>Input:</strong> nums = [1,2,3,4,5,6,7], k = 3<br>
+                <strong>Output:</strong> [5,6,7,1,2,3,4]
+            </li>
+            <li data-topic="array">
+                <h3>Maximum Product Subarray</h3>
+                <p>Find the contiguous subarray within an array (containing at least one number) which has the largest product.</p>
+                <strong>Input:</strong> nums = [2,3,-2,4]<br>
+                <strong>Output:</strong> 6
+            </li>
+            <li data-topic="string">
+                <h3>Longest Substring Without Repeating Characters</h3>
+                <p>Given a string, find the length of the longest substring without repeating characters.</p>
+                <strong>Input:</strong> s = "abcabcbb"<br>
+                <strong>Output:</strong> 3
+            </li>
+            <li data-topic="string">
+                <h3>Palindrome Substring</h3>
+                <p>Given a string s, return the longest palindromic substring in s.</p>
+                <strong>Input:</strong> s = "babad"<br>
+                <strong>Output:</strong> "bab" (or "aba")
+            </li>
+            <li data-topic="string">
+                <h3>Group Anagrams</h3>
+                <p>Given an array of strings, group the anagrams together.</p>
+                <strong>Input:</strong> strs = ["eat","tea","tan","ate","nat","bat"]<br>
+                <strong>Output:</strong> [["bat"],["nat","tan"],["ate","eat","tea"]]
+            </li>
+            <li data-topic="string">
+                <h3>Longest Palindromic Substring</h3>
+                <p>Given a string s, return the longest palindromic substring in s.</p>
+                <strong>Input:</strong> s = "babad"<br>
+                <strong>Output:</strong> "bab" (or "aba")
+            </li>
+            <li data-topic="string">
+                <h3>Implement strStr()</h3>
+                <p>Implement strStr() to find the first occurrence of a substring in a string.</p>
+                <strong>Input:</strong> haystack = "hello", needle = "ll"<br>
+                <strong>Output:</strong> 2
+            </li>
+            <li data-topic="stack">
+                <h3>Min Stack</h3>
+                <p>Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.</p>
+                <strong>Input:</strong> push(-2), push(0), push(-3), getMin(), pop(), top(), getMin()<br>
+                <strong>Output:</strong> [-3, 0, -2]
+            </li>
+            <li data-topic="stack">
+                <h3>Evaluate Reverse Polish Notation</h3>
+                <p>Evaluate the value of an arithmetic expression in Reverse Polish Notation.</p>
+                <strong>Input:</strong> tokens = ["2","1","+","3","*"]<br>
+                <strong>Output:</strong> 9
+            </li>
+            <li data-topic="stack">
+                <h3>Daily Temperatures</h3>
+                <p>Given an array of integers temperatures representing the daily temperatures, return an array such that answer[i] is the number of days you have to wait until a warmer temperature.</p>
+                <strong>Input:</strong> temperatures = [73,74,75,71,69,72,76,73]<br>
+                <strong>Output:</strong> [1,1,4,2,1,1,0,0]
+            </li>
+            <li data-topic="queue">
+                <h3>Implement Stack using Queues</h3>
+                <p>Implement a stack using only two queues.</p>
+                <strong>Input:</strong> push(1), push(2), top(), pop(), top()<br>
+                <strong>Output:</strong> [2, 2]
+            </li>
+            <li data-topic="queue">
+                <h3>Sliding Window Maximum</h3>
+                <p>Given an array nums and a sliding window size k, return the maximum value in each window.</p>
+                <strong>Input:</strong> nums = [1,3,-1,-3,5,3,6,7], k = 3<br>
+                <strong>Output:</strong> [3,3,5,5,6,7]
+            </li>
+            <li data-topic="linkedlist">
+                <h3>Merge Two Sorted Lists</h3>
+                <p>Merge two sorted linked lists and return it as a new sorted list.</p>
+                <strong>Input:</strong> l1 = [1,2,4], l2 = [1,3,4]<br>
+                <strong>Output:</strong> [1,1,2,3,4,4]
+            </li>
+            <li data-topic="linkedlist">
+                <h3>Remove Nth Node From End of List</h3>
+                <p>Given a linked list, remove the n-th node from the end of the list.</p>
+                <strong>Input:</strong> head = [1,2,3,4,5], n = 2<br>
+                <strong>Output:</strong> [1,2,3,5]
+            </li>
+            <li data-topic="linkedlist">
+                <h3>Linked List Cycle</h3>
+                <p>Determine if a linked list has a cycle in it.</p>
+                <strong>Input:</strong> head = [3,2,0,-4], pos = 1<br>
+                <strong>Output:</strong> true
+            </li>
+            <li data-topic="linkedlist">
+                <h3>Reverse Nodes in k-Group</h3>
+                <p>Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.</p>
+                <strong>Input:</strong> head = [1,2,3,4,5], k = 2<br>
+                <strong>Output:</strong> [2,1,4,3,5]
+            </li>
+            <li data-topic="tree">
+                <h3>Binary Tree Inorder Traversal</h3>
+                <p>Given a binary tree, return the inorder traversal of its nodes' values.</p>
+                <strong>Input:</strong> root = [1,null,2,3]<br>
+                <strong>Output:</strong> [1,3,2]
+            </li>
+            <li data-topic="tree">
+                <h3>Symmetric Tree</h3>
+                <p>Given a binary tree, check whether it is a mirror of itself (symmetric around its center).</p>
+                <strong>Input:</strong> root = [1,2,2,3,4,4,3]<br>
+                <strong>Output:</strong> true
+            </li>
+            <li data-topic="tree">
+                <h3>Path Sum</h3>
+                <p>Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.</p>
+                <strong>Input:</strong> root = [5,4,8,11,null,13,4], sum = 22<br>
+                <strong>Output:</strong> true
+            </li>
+            <li data-topic="tree">
+                <h3>Lowest Common Ancestor of a Binary Search Tree</h3>
+                <p>Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.</p>
+                <strong>Input:</strong> root = [6,2,8,0,4,7,9], p = 2, q = 8<br>
+                <strong>Output:</strong> 6
+            </li>
+            <li data-topic="tree">
+                <h3>Binary Tree Level Order Traversal</h3>
+                <p>Return the level order traversal of its nodes' values.</p>
+                <strong>Input:</strong> root = [3,9,20,null,null,15,7]<br>
+                <strong>Output:</strong> [[3],[9,20],[15,7]]
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about-us.html"><i class="fa fa-info-circle"></i> About Us</a></li>
+                    <li><a href="contact-us.html"><i class="fa fa-envelope"></i> Contact Us</a></li>
+                    <li><a href="privacy-policy.html"><i class="fa fa-shield-alt"></i> Privacy Policy</a></li>
+                    <li><a href="term-condition.html"><i class="fa fa-file-contract"></i> Terms and condition</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Interview Preparation</h3>
+                <ul>
+                    <li><a href="/sql-interview-questions/"><i class="fas fa-database"></i>Top Sql Interview Questions</a></li>
+                    <li><a href="/java-interview-questions/"><i class="fas fa-coffee"></i> Java Interview Questions</a></li>
+                    <li><a href="/spring-boot-interview-questions/"><i class="fa fa-dev"></i> Java Spring Boot Interview Questions </a></li>
+                    <li><a href="/software-engineer-interview-questions/"><i class="fa fa-code"></i> Top 50 coding Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Top Coding Questions </h3>
+              <ul>
+                  <li><a href="/techinal-interview-questions/top-50-coding-interview-question/"><i class="fas fa-book"></i>Top 50+ Coding</a></li>
+                  <li><a href="/techinal-interview-questions/sde-sheet-top-coding-interview-problems/"><i class="fas fa-dev"></i>Data Structure & Algorithms</a></li>
+                  <li><a href="/roadmap/frontend-developer-roadmap/"><i class="fa fa-route"></i> Frontend Developer Roadmap</a></li>
+                  <li><a href="/software-engineer-interview-questions/"><i class="fa fa-code"></i> Top Interview Question</a></li>
+              </ul>
+          </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" target="_blank" aria-label="Facebook"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#" target="_blank" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+                </div>
+                <div class="newsletter">
+                    <h4>Subscribe for Jobs Updates.</h4>
+                    <form>
+                        <input type="email" placeholder="Your Email" aria-label="Email for newsletter">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Coding Career Prep. All rights reserved.</p>
+            <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></a>
+        </div>
+      </footer>
+    <script src="sde-sheet-dsa.js"></script>
+    <script src="../../js/app.js"></script>
+</body>
+</html>
