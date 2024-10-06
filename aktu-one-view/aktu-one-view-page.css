@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bgcolor:#ffffff;
+    --darktext:#000000;
+    --lighttext:rgb(68, 67, 67);
+    --themecolor:#1f9e3cea;
+    --cardbg:#ffffff;
+}
+
+[data-theme="dark"] {
+    --bgcolor: #000000; /* Dark theme background */
+    --darktext: #ffffff; /* Dark theme text */
+    --lighttext: #d1d1d1; /* Dark theme secondary text */
+    --themecolor: #1ec645ea; /* Accent color */
+    --cardbg:#3e3e3e9e;
+}
+.AKTU {
+    font-family: Arial, sans-serif;
+color: var(--darktext);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+
+.aktu-one-view {
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: var(--darktext);
+    width: 90%;
+}
+
+.aktu-one-view h1 {
+    font-size: 2.0em;
+    margin-bottom: 20px;
+    color: var(--darktext);
+}
+
+.aktu-one-view p {
+    font-size: 1.0em;
+    text-align: justify;
+}
+
+.aktu-one-view .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color:var(--themecolor); /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s;
+}
+
+.aktu-one-view  
+     .button:hover {
+    background-color: var(--darktext); /* Darker shade for hover effect */
+    color: #fff;
+    
+}
+
+
+.button-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px;
+}
+
+.aktu-result {
+    display: inline-block; /* Ensure the link behaves like a button */
+    background-color:var(--themecolor);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s;
+}
+
+.aktu-result:hover {
+    background-color: var(--darktext);
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .aktu-result {
+        flex: 1 1 45%; /* Make buttons take up 45% on smaller screens */
+    }
+}
+
+@media (min-width: 601px) {
+    .aktu-result {
+        flex: 1 1 30%; /* Make buttons take up 30% on larger screens */
+    }
+}
+
+
+.image-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.aktu {
+  
+    color: var(--bgcolor);
+    background-color:#8E0000;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.aktu-one-view-result 
+     h1 {
+    margin: 0;
+}
+
+.aktu-one-view-result section {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.aktu-one-view-result h2 {
+    color: var(--themecolor);
+}
+
+.aktu-one-view-result  ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.aktu-one-view-result  ul li {
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.note{
+    background-color: rgb(238, 238, 74);
+    font-size: 10px;text-align: justify;
+    padding: 15px;
+    margin-top: 70px;
+}
